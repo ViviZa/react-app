@@ -1,20 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Movie extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: null,
-            url: null
-        };
-    }
+export default function Movie(props) {
+    return (
+        <div className="tile animated fadeIn">
+            <span className="airdate">{props.movies.title}</span>
+            {/*<img src={props.movies.url}/>*/}
+            <span>{props.movies.url}</span>
+            <span>{props.movies.release_date}</span>
+        </div>
 
-    render() {
-        return (
-            <div
-                className="movie">
-                {this.state.title}
-            </div>
-        );
-    }
+    );
 }
