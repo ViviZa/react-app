@@ -1,13 +1,24 @@
 import React from 'react';
+import logo from './images/image.png';
 
 export default function Movie(props) {
     return (
-        <div className="tile animated fadeIn">
-            <span className="airdate">{props.movies.title}</span>
-            {/*<img src={props.movies.url}/>*/}
-            <span>{props.movies.url}</span>
-            <span>{props.movies.release_date}</span>
+        <div className="teaser column">
+            <a href={props.movies.url}>
+            <img
+                src={logo}
+                className="image"
+                alt="logo"
+            />
+            </a>
+            <div className="overlay">
+                <div className="rating"> {/*include rating */} </div>
+                <h5 className="genre">International</h5>
+                <h2 className="title">{props.movies.title}</h2>
+                <div className="release-date"><h4>{props.movies.release_date}</h4></div>
+            </div>
         </div>
 
     );
 }
+
