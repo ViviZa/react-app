@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../App.css';
 //import './General.css';
 import MovieList from './MovieList';
+import Button from './Button';
 
 class App extends Component {
     constructor(props) {
@@ -16,25 +17,18 @@ class App extends Component {
                     <p className="subline">Here you find the upcoming movie releases in Germany.</p>
                 </section>
                 <section className="filter-section">
-                        <Button title="Actor"/>
-                        <Button title="Genre"/>
-                        <Button title="Timeframe"/>
+                    <Button title="Actor"/>
+                    <Button title="Genre"/>
+                    <Button title="Timeframe"/>
+                    <div className="rating-column">
+                        <h3>Rating</h3>
+                    </div>
                 </section>
+
                 <MovieList/>
             </div>
         );
     }
-}
-
-
-function Button(props) {
-    return (
-        <div className="filter-column">
-            <div className="dropdown">
-                    <h3>{props.title}</h3>
-            </div>
-        </div>
-    );
 }
 
 export default App;
