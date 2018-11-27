@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import jsondata from "./imdb_data2";
+import jsondata from "../imdb_data2";
 import Movie from "./Movie";
 
 class MovieList extends Component {
@@ -23,11 +23,7 @@ class MovieList extends Component {
     render() {
         return (
             <div className="movie-section">
-                <div className="teaser column">
-                    <div className="container">
-                        {this.state.movies.map((movies) => <Movie movies={movies}/>)}
-                    </div>
-                </div>
+                {this.state.movies.map((movies) => <Movie movies={movies}/>)}
             </div>
         );
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/image.png';
+import logo from '../images/image.png';
 
 export default function Movie(props) {
     return (
