@@ -71,7 +71,7 @@ h4 {
   font-weight: 100;
 }
 h5 {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 100;
   margin: -15px 0 0 0;
   padding: 0 20px 5px 20px;
@@ -99,10 +99,18 @@ h5 {
 .title {
   color: #ffffff;
   text-align: left;
-  padding-left: 20px;
-  margin: 5px 0 5px 0;
-  font-size: 22px;
+  padding: 0 20px;
+  margin: 5px 0;
+  font-size: 18px;
+  line-height: 1.4;
   letter-spacing: 1.2px;
+}
+.max-lines {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .movie-section {
   clear: both;
@@ -249,7 +257,7 @@ h5 {
     padding-bottom: 0;
   }
   .title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .release-icon{
     padding: 5px 0 30px 30px;
