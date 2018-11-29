@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
-//import './General.css';
 import MovieList from './MovieList';
-import Button from './Button';
+import ButtonList from './ButtonList';
 
 class App extends Component {
     constructor(props) {
@@ -17,9 +16,7 @@ class App extends Component {
                     <p className="subline">Here you find the upcoming movie releases in Germany.</p>
                 </section>
                 <section className="filter-section">
-                    <Button title="Actor"/>
-                    <Button title="Genre"/>
-                    <Button title="Timeframe"/>
+                    <ButtonList/>
                     <div className="rating-column">
                         <h3>Rating</h3>
                     </div>

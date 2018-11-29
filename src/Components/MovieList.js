@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import jsondata from "../imdb_data2";
+import jsondata from "../imdb_data3";
 import Movie from "./Movie";
 
 class MovieList extends Component {

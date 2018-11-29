@@ -1,0 +1,821 @@
+[
+    {
+        "id": 1,
+        "title": "The Grinch",
+        "imdb_id": "2709692",
+        "url": "https://www.imdb.com/title/tt2709692/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BYmE5Yjg0MzktYzgzMi00YTFiLWJjYTItY2M5MmI1ODI4MDY3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 2,
+        "title": "Peppermint",
+        "imdb_id": "6850820",
+        "url": "https://www.imdb.com/title/tt6850820/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNWVlMjQ3MjItOWE3YS00YTYwLWE0ZDMtZWMyZWY1NzkxNWIwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 3,
+        "title": "The House That Jack Built",
+        "imdb_id": "4003440",
+        "url": "https://www.imdb.com/title/tt4003440/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzk4OTI2MTUtZmM1NS00NWFiLWJjYWUtNzYxODIyMWRmMDQ4XkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 4,
+        "title": "McQueen",
+        "imdb_id": "6510332",
+        "url": "https://www.imdb.com/title/tt6510332/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTg0MTg3MTM0OF5BMl5BanBnXkFtZTgwOTU0OTU2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 5,
+        "title": "Crooked House",
+        "imdb_id": "1869347",
+        "url": "https://www.imdb.com/title/tt1869347/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BODQ3NjI2MzU4OF5BMl5BanBnXkFtZTgwNTc5NDIyNDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 6,
+        "title": "The Extraordinary Journey of the Fakir",
+        "imdb_id": "5371168",
+        "url": "https://www.imdb.com/title/tt5371168/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNGEwZTI5NjItOTAyZi00NGQwLWI5MGQtNDE2MDg3MTMxNjM3XkEyXkFqcGdeQXVyMzYxOTQ3MDg@._V1_UY268_CR16,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 7,
+        "title": "Deliler",
+        "imdb_id": "8748608",
+        "url": "https://www.imdb.com/title/tt8748608/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNTJmMWNkMTUtZDMwMC00OWJkLTliMWQtYzM5YjIyOGRjYjRhXkEyXkFqcGdeQXVyNTM5NjkxMzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "release_date": "29 November 2018",
+        "ranking": null
+    },
+    {
+        "id": 8,
+        "title": "Widows",
+        "imdb_id": "4218572",
+        "url": "https://www.imdb.com/title/tt4218572/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjM3ODc5NDEyOF5BMl5BanBnXkFtZTgwMTI4MDcxNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "06 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 9,
+        "title": "Climax",
+        "imdb_id": "8359848",
+        "url": "https://www.imdb.com/title/tt8359848/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjllYmQ2OGQtN2IxZC00ODJiLWI4NjQtYmNlZjYzNzUzYjkyXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_UY268_CR7,0,182,268_AL_.jpg",
+        "release_date": "06 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 10,
+        "title": "Anna and the Apocalypse",
+        "imdb_id": "6433880",
+        "url": "https://www.imdb.com/title/tt6433880/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTU4NTM4NDQyNV5BMl5BanBnXkFtZTgwMjY0NTI0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "06 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 11,
+        "title": "Under the Silver Lake",
+        "imdb_id": "5691670",
+        "url": "https://www.imdb.com/title/tt5691670/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BYjY0NTA5MGItNDU1Yy00ZmE3LWI5NGItZDY5OGUxZjYzZGQ5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "06 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 12,
+        "title": "Unfriended: Dark Web",
+        "imdb_id": "4761916",
+        "url": "https://www.imdb.com/title/tt4761916/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNTI0OWYwZGEtMDNkMy00YTQyLTg2NTgtNWM1N2ViOGU5ZjEzXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UY268_CR2,0,182,268_AL_.jpg",
+        "release_date": "06 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 13,
+        "title": "Mortal Engines",
+        "imdb_id": "1571234",
+        "url": "https://www.imdb.com/title/tt1571234/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzY1MDA2OTQ0N15BMl5BanBnXkFtZTgwMTkzNjU2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "13 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 14,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "imdb_id": "4633694",
+        "url": "https://www.imdb.com/title/tt4633694/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "13 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 15,
+        "title": "RBG",
+        "imdb_id": "7689964",
+        "url": "https://www.imdb.com/title/tt7689964/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNTE4Nzc0NDU3Nl5BMl5BanBnXkFtZTgwODIzMTQzNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "13 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 16,
+        "title": "Aquaman",
+        "imdb_id": "1477834",
+        "url": "https://www.imdb.com/title/tt1477834/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjEzMDY3MDYwMl5BMl5BanBnXkFtZTgwOTY3MDY3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "20 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 17,
+        "title": "Mary Poppins Returns",
+        "imdb_id": "5028340",
+        "url": "https://www.imdb.com/title/tt5028340/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTk0NDIzMTA1MF5BMl5BanBnXkFtZTgwMzM0MTUzNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "20 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 18,
+        "title": "Bumblebee",
+        "imdb_id": "4701182",
+        "url": "https://www.imdb.com/title/tt4701182/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOTM3NzE5OTE1Nl5BMl5BanBnXkFtZTgwNzQwNjM3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "20 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 19,
+        "title": "Birds of Passage",
+        "imdb_id": "6386748",
+        "url": "https://www.imdb.com/title/tt6386748/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjUxODM5ODUyM15BMl5BanBnXkFtZTgwNzA3Nzg3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "20 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 20,
+        "title": "Shoplifters",
+        "imdb_id": "8075192",
+        "url": "https://www.imdb.com/title/tt8075192/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BYWZmOTY0MDAtMGRlMS00YjFlLWFkZTUtYmJhYWNlN2JjMmZkXkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "27 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 21,
+        "title": "Mary Shelley",
+        "imdb_id": "3906082",
+        "url": "https://www.imdb.com/title/tt3906082/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzUyM2EzOTEtOTMwMi00NzMwLWEyYTAtZGYxYzMyZDgyNGUyXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "27 December 2018",
+        "ranking": null
+    },
+    {
+        "id": 22,
+        "title": "Holmes & Watson",
+        "imdb_id": "1255919",
+        "url": "https://www.imdb.com/title/tt1255919/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNTIxNDk3NDEzMF5BMl5BanBnXkFtZTgwODg5NDM0NjM@._V1_UY268_CR16,0,182,268_AL_.jpg",
+        "release_date": "03 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 23,
+        "title": "Colette",
+        "imdb_id": "5437928",
+        "url": "https://www.imdb.com/title/tt5437928/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BZTg5M2MxYzAtZjUwMi00MzRjLTkxNTItZmNjYzUxZjI3YzI3XkEyXkFqcGdeQXVyNDY2MjcyOTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "03 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 24,
+        "title": "The Wife",
+        "imdb_id": "3750872",
+        "url": "https://www.imdb.com/title/tt3750872/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzA2Yzk4YjItZmU5OS00ZjFjLTlkNTEtMzJjZDVlOGY0OWRlXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "03 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 25,
+        "title": "Life Itself",
+        "imdb_id": "5989218",
+        "url": "https://www.imdb.com/title/tt5989218/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BM2ZmY2I2ZDktZjhhMC00YmFmLWIyNDUtODk0NjY3Y2Q5MmRiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "03 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 26,
+        "title": "Sink or Swim",
+        "imdb_id": "7476116",
+        "url": "https://www.imdb.com/title/tt7476116/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNTc2OTljNjQtODU5Yy00ZmYxLWJjODgtY2RiY2U3NzAwNGQ0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR8,0,182,268_AL_.jpg",
+        "release_date": "03 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 27,
+        "title": "Robin Hood",
+        "imdb_id": "4532826",
+        "url": "https://www.imdb.com/title/tt4532826/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOGQzZDM0NGUtZGE1NS00ZjQwLTk0N2EtMWI0NTgxYTkwYWQ4XkEyXkFqcGdeQXVyNDMzMzI5MjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "10 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 28,
+        "title": "Welcome to Marwen",
+        "imdb_id": "3289724",
+        "url": "https://www.imdb.com/title/tt3289724/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjIxMjUwMjItMGIxYS00NTlmLTgxZTQtMzg2Yjc1ZWQ3YTYxXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "10 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 29,
+        "title": "Ben Is Back",
+        "imdb_id": "7545524",
+        "url": "https://www.imdb.com/title/tt7545524/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BZGY3ZWMyYjEtMDMzYi00NDQyLWE1MWEtMDNmMjRlOGVkNDc3XkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "10 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 30,
+        "title": "Mary Queen of Scots",
+        "imdb_id": "2328900",
+        "url": "https://www.imdb.com/title/tt2328900/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNDVmOGI4MTMtYmNmNC00MTliLTlkYjQtYmU2N2EyNDk2YTAwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "17 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 31,
+        "title": "The Front Runner",
+        "imdb_id": "7074886",
+        "url": "https://www.imdb.com/title/tt7074886/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTcyNTAxOTg4NV5BMl5BanBnXkFtZTgwMTMwNjQ2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "17 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 32,
+        "title": "Glass",
+        "imdb_id": "6823368",
+        "url": "https://www.imdb.com/title/tt6823368/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTE0NDQ0MzgyODdeQTJeQWpwZ15BbWU4MDc5MTQzOTUz._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "17 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 33,
+        "title": "Second Act",
+        "imdb_id": "2126357",
+        "url": "https://www.imdb.com/title/tt2126357/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjQ2MjI5Njk0MF5BMl5BanBnXkFtZTgwNDQ2NzczNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "17 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 34,
+        "title": "Capernaum",
+        "imdb_id": "8267604",
+        "url": "https://www.imdb.com/title/tt8267604/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BZTI4NTE3ODMtYzBhNi00NmE2LWJjY2QtNTUwY2EzYTAzOWUzXkEyXkFqcGdeQXVyODcyODY1Mzg@._V1_UY268_CR12,0,182,268_AL_.jpg",
+        "release_date": "17 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 35,
+        "title": "Fahrenheit 11/9",
+        "imdb_id": "8632862",
+        "url": "https://www.imdb.com/title/tt8632862/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjE4NDYxNTk4MV5BMl5BanBnXkFtZTgwNTE1MDMxNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "17 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 36,
+        "title": "Creed II",
+        "imdb_id": "6343314",
+        "url": "https://www.imdb.com/title/tt6343314/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTcxMjUwNjQ5N15BMl5BanBnXkFtZTgwNjk4MzI4NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "24 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 37,
+        "title": "Ralph Breaks the Internet",
+        "imdb_id": "5848272",
+        "url": "https://www.imdb.com/title/tt5848272/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "24 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 38,
+        "title": "Instant Family",
+        "imdb_id": "7401588",
+        "url": "https://www.imdb.com/title/tt7401588/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTkzMzgzMTc1OF5BMl5BanBnXkFtZTgwNjQ4MzE0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "24 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 39,
+        "title": "The Favourite",
+        "imdb_id": "5083738",
+        "url": "https://www.imdb.com/title/tt5083738/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTg1NzQwMDQxNV5BMl5BanBnXkFtZTgwNDg2NDYyNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "24 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 40,
+        "title": "The Hate U Give",
+        "imdb_id": "5580266",
+        "url": "https://www.imdb.com/title/tt5580266/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BZDVkMWJiMzUtNjQyOS00MGVmLWJhYmMtN2IxYzU4MjY3MDRmXkEyXkFqcGdeQXVyNzA5NjIzODk@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "24 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 41,
+        "title": "Beautiful Boy",
+        "imdb_id": "1226837",
+        "url": "https://www.imdb.com/title/tt1226837/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNjNhNjVjZDQtMzRhMS00YmI2LTkxZmEtMDdkMWU3OWQ2NjNmXkEyXkFqcGdeQXVyODE1MjMyNzI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "24 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 42,
+        "title": "Green Book",
+        "imdb_id": "6966692",
+        "url": "https://www.imdb.com/title/tt6966692/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjMyNzExNzQ5OV5BMl5BanBnXkFtZTgwNjM2MjIxNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "31 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 43,
+        "title": "The Mule",
+        "imdb_id": "7959026",
+        "url": "https://www.imdb.com/title/tt7959026/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTc1OTc5NzA4OF5BMl5BanBnXkFtZTgwOTAzMzE2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "31 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 44,
+        "title": "The Possession of Hannah Grace",
+        "imdb_id": "5734576",
+        "url": "https://www.imdb.com/title/tt5734576/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjA1MTIwODY4Nl5BMl5BanBnXkFtZTgwNzkxNDc2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "31 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 45,
+        "title": "The Old Man & the Gun",
+        "imdb_id": "2837574",
+        "url": "https://www.imdb.com/title/tt2837574/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOTk3NjU5MjIxM15BMl5BanBnXkFtZTgwNjU0OTU2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "31 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 46,
+        "title": "The Silence",
+        "imdb_id": "7315484",
+        "url": "https://www.imdb.com/title/tt7315484/?ref_=rlm",
+        "image_url": "",
+        "release_date": "31 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 47,
+        "title": "Generation Wealth",
+        "imdb_id": "5268348",
+        "url": "https://www.imdb.com/title/tt5268348/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjQxNDU1NDMyOV5BMl5BanBnXkFtZTgwMzUyNTA2NDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "31 January 2019",
+        "ranking": null
+    },
+    {
+        "id": 48,
+        "title": "The Lego Movie 2: The Second Part",
+        "imdb_id": "3513498",
+        "url": "https://www.imdb.com/title/tt3513498/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTkyOTkwNDc1N15BMl5BanBnXkFtZTgwNzkyMzk3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "07 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 49,
+        "title": "Can You Ever Forgive Me?",
+        "imdb_id": "4595882",
+        "url": "https://www.imdb.com/title/tt4595882/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjQzMzEzNDU2NV5BMl5BanBnXkFtZTgwMzQ4NTUwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "07 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 50,
+        "title": "Escape Room",
+        "imdb_id": "5886046",
+        "url": "https://www.imdb.com/title/tt5886046/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjQ2NDMwMTY3MF5BMl5BanBnXkFtZTgwNDg5OTc1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "07 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 51,
+        "title": "Alita: Battle Angel",
+        "imdb_id": "0437086",
+        "url": "https://www.imdb.com/title/tt0437086/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjQyNjkzMTI1Nl5BMl5BanBnXkFtZTgwNTE5Mjc0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "12 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 52,
+        "title": "If Beale Street Could Talk",
+        "imdb_id": "7125860",
+        "url": "https://www.imdb.com/title/tt7125860/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTEzNTYzMTg0OTdeQTJeQWpwZ15BbWU4MDg1OTQzODYz._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "14 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 53,
+        "title": "White Boy Rick",
+        "imdb_id": "4537896",
+        "url": "https://www.imdb.com/title/tt4537896/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzNlZWVmMjYtY2JhNi00OGZmLWJmODgtODgyMmI3NDM0NWE5XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "14 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 54,
+        "title": "Boy Erased",
+        "imdb_id": "7008872",
+        "url": "https://www.imdb.com/title/tt7008872/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzM2MzU1NTM4NF5BMl5BanBnXkFtZTgwNTMwMzI1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "21 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 55,
+        "title": "Nobody's Fool",
+        "imdb_id": "8097306",
+        "url": "https://www.imdb.com/title/tt8097306/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjM0MjQ2OTIyNl5BMl5BanBnXkFtZTgwMDM4MTgwNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "21 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 56,
+        "title": "How to Train Your Dragon: The Hidden World",
+        "imdb_id": "2386490",
+        "url": "https://www.imdb.com/title/tt2386490/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "21 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 57,
+        "title": "On the Basis of Sex",
+        "imdb_id": "4669788",
+        "url": "https://www.imdb.com/title/tt4669788/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BYzJlYmEwYjEtMmE1Ny00ZjdiLTg2ZjctMmMxYjRhNGJkNTY2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR3,0,182,268_AL_.jpg",
+        "release_date": "28 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 58,
+        "title": "Cold Pursuit",
+        "imdb_id": "5719748",
+        "url": "https://www.imdb.com/title/tt5719748/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOGY3YjUzOTgtMmJmMS00ZDJjLTkwOGEtYWE3Mjk0ZTgwYmY4XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "28 February 2019",
+        "ranking": null
+    },
+    {
+        "id": 59,
+        "title": "The Kid Who Would Be King",
+        "imdb_id": "6811018",
+        "url": "https://www.imdb.com/title/tt6811018/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjAxODM5NTkxNl5BMl5BanBnXkFtZTgwMTA0Mzc0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "01 March 2019",
+        "ranking": null
+    },
+    {
+        "id": 60,
+        "title": "Captain Marvel",
+        "imdb_id": "4154664",
+        "url": "https://www.imdb.com/title/tt4154664/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTYzNDc5NzY5OF5BMl5BanBnXkFtZTgwMjA0OTUzNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "07 March 2019",
+        "ranking": null
+    },
+    {
+        "id": 61,
+        "title": "At Eternity's Gate",
+        "imdb_id": "6938828",
+        "url": "https://www.imdb.com/title/tt6938828/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOTRmZGJiZjUtMGJjYi00MzZhLTkzYjUtODE1Yjk5ZDRiODhlXkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "07 March 2019",
+        "ranking": null
+    },
+    {
+        "id": 62,
+        "title": "The Sisters Brothers",
+        "imdb_id": "4971344",
+        "url": "https://www.imdb.com/title/tt4971344/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOTZmNTI1MzMtMGY0ZS00YTRlLWI4OTktYzE3YzZjZjJkNDVlXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "07 March 2019",
+        "ranking": null
+    },
+    {
+        "id": 63,
+        "title": "High Life",
+        "imdb_id": "4827558",
+        "url": "https://www.imdb.com/title/tt4827558/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMGVlZjkxOTctYWU0ZS00NTUxLTlmZmYtYjQxODZmNTBhOTM4XkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_UY268_CR7,0,182,268_AL_.jpg",
+        "release_date": "14 March 2019",
+        "ranking": null
+    },
+    {
+        "id": 64,
+        "title": "Us",
+        "imdb_id": "6857112",
+        "url": "https://www.imdb.com/title/tt6857112/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNzQ4NzQ1MDg1M15BMl5BanBnXkFtZTgwNTQ2MDg0NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "14 March 2019",
+        "ranking": null
+    },
+    {
+        "id": 65,
+        "title": "Dumbo",
+        "imdb_id": "3861390",
+        "url": "https://www.imdb.com/title/tt3861390/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNjMxMDE0MDI1Ml5BMl5BanBnXkFtZTgwMzExNTU3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "04 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 66,
+        "title": "Shazam!",
+        "imdb_id": "0448115",
+        "url": "https://www.imdb.com/title/tt0448115/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNTkxNDU1NzMwOF5BMl5BanBnXkFtZTgwMjA5MDkwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "04 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 67,
+        "title": "Pet Sematary",
+        "imdb_id": "0837563",
+        "url": "https://www.imdb.com/title/tt0837563/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjA2NDc1NDc1Nl5BMl5BanBnXkFtZTgwNDMzNjA1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "04 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 68,
+        "title": "The Aftermath",
+        "imdb_id": "5977276",
+        "url": "https://www.imdb.com/title/tt5977276/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTk2MDEyNTE5M15BMl5BanBnXkFtZTgwMzY1NDM4NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "04 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 69,
+        "title": "Captive State",
+        "imdb_id": "5968394",
+        "url": "https://www.imdb.com/title/tt5968394/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTgyNjU0NTAxOV5BMl5BanBnXkFtZTgwNTc4MDIzNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "11 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 70,
+        "title": "Wildlife",
+        "imdb_id": "5929754",
+        "url": "https://www.imdb.com/title/tt5929754/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "11 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 71,
+        "title": "Wonder Park",
+        "imdb_id": "6428676",
+        "url": "https://www.imdb.com/title/tt6428676/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTc5M2FlMTgtMjQyYi00ZjQ2LWIyMjEtMWQyZDBkOGQwMTYzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "11 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 72,
+        "title": "Untitled Avengers Movie",
+        "imdb_id": "4154796",
+        "url": "https://www.imdb.com/title/tt4154796/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/180x268/film-173410679._CB470041619_.png",
+        "release_date": "25 April 2019",
+        "ranking": null
+    },
+    {
+        "id": 73,
+        "title": "King of Thieves",
+        "imdb_id": "5789976",
+        "url": "https://www.imdb.com/title/tt5789976/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjQyMjEzMjQxMV5BMl5BanBnXkFtZTgwNjU4Njg3NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "03 May 2019",
+        "ranking": null
+    },
+    {
+        "id": 74,
+        "title": "Pok\u00e9mon Detective Pikachu",
+        "imdb_id": "5884052",
+        "url": "https://www.imdb.com/title/tt5884052/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTk1MjgwNjM2MV5BMl5BanBnXkFtZTgwMzMyODM3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "09 May 2019",
+        "ranking": null
+    },
+    {
+        "id": 75,
+        "title": "Aladdin",
+        "imdb_id": "6139732",
+        "url": "https://www.imdb.com/title/tt6139732/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjI1OTI3ODc0M15BMl5BanBnXkFtZTgwNDE4OTE1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "23 May 2019",
+        "ranking": null
+    },
+    {
+        "id": 76,
+        "title": "John Wick: Chapter 3",
+        "imdb_id": "6146586",
+        "url": "https://www.imdb.com/title/tt6146586/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMzYyNTM5NjA0Nl5BMl5BanBnXkFtZTgwNTg3NzM3NjM@._V1_UY268_CR110,0,182,268_AL_.jpg",
+        "release_date": "23 May 2019",
+        "ranking": null
+    },
+    {
+        "id": 77,
+        "title": "Ad Astra",
+        "imdb_id": "2935510",
+        "url": "https://www.imdb.com/title/tt2935510/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BM2FjOTZmNTItNDgzMS00NzY5LTg1YWQtYjk0YmY3OGI2NzNkXkEyXkFqcGdeQXVyNzQzMTg3OTQ@._V1_UY268_CR64,0,182,268_AL_.jpg",
+        "release_date": "23 May 2019",
+        "ranking": null
+    },
+    {
+        "id": 78,
+        "title": "Dark Phoenix",
+        "imdb_id": "6565702",
+        "url": "https://www.imdb.com/title/tt6565702/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjM0NjcyMzU5Nl5BMl5BanBnXkFtZTgwNTE2MzU0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "06 June 2019",
+        "ranking": null
+    },
+    {
+        "id": 79,
+        "title": "The Secret Life of Pets 2",
+        "imdb_id": "5113040",
+        "url": "https://www.imdb.com/title/tt5113040/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTA2NzM0MjA0MTJeQTJeQWpwZ15BbWU4MDk1MzYwNzYz._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "04 July 2019",
+        "ranking": null
+    },
+    {
+        "id": 80,
+        "title": "Spider-Man: Far From Home",
+        "imdb_id": "6320628",
+        "url": "https://www.imdb.com/title/tt6320628/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BZDljOGNhOWUtNmIzNC00ZjRkLWI1YTQtNjliMTJkMzhlODUxXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_UY268_CR6,0,182,268_AL_.jpg",
+        "release_date": "05 July 2019",
+        "ranking": null
+    },
+    {
+        "id": 81,
+        "title": "The Lion King",
+        "imdb_id": "6105098",
+        "url": "https://www.imdb.com/title/tt6105098/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTg5NTY3OTU2N15BMl5BanBnXkFtZTgwOTgyOTA4NjM@._V1_UY268_CR16,0,182,268_AL_.jpg",
+        "release_date": "18 July 2019",
+        "ranking": null
+    },
+    {
+        "id": 82,
+        "title": "Hobbs and Shaw",
+        "imdb_id": "6806448",
+        "url": "https://www.imdb.com/title/tt6806448/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMmQyMGQ4OWMtNjNjNy00ZTdkLWFjMjUtMDlkMDlhNTg1NjUzXkEyXkFqcGdeQXVyNjA4MjkzMzA@._V1_UY268_CR124,0,182,268_AL_.jpg",
+        "release_date": "01 August 2019",
+        "ranking": null
+    },
+    {
+        "id": 83,
+        "title": "Once Upon a Time in Hollywood",
+        "imdb_id": "7131622",
+        "url": "https://www.imdb.com/title/tt7131622/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTc3ODIwNzA2NF5BMl5BanBnXkFtZTgwMTUzMjA4NTM@._V1_UY268_CR43,0,182,268_AL_.jpg",
+        "release_date": "08 August 2019",
+        "ranking": null
+    },
+    {
+        "id": 84,
+        "title": "The New Mutants",
+        "imdb_id": "4682266",
+        "url": "https://www.imdb.com/title/tt4682266/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTgxNzM1NzExM15BMl5BanBnXkFtZTgwODMwMDIzNDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "22 August 2019",
+        "ranking": null
+    },
+    {
+        "id": 85,
+        "title": "Artemis Fowl",
+        "imdb_id": "3089630",
+        "url": "https://www.imdb.com/title/tt3089630/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjI2NzE5MzQ4N15BMl5BanBnXkFtZTgwNDEwNDM4NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "22 August 2019",
+        "ranking": null
+    },
+    {
+        "id": 86,
+        "title": "It: Chapter Two",
+        "imdb_id": "7349950",
+        "url": "https://www.imdb.com/title/tt7349950/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BNmU3NWI0YWYtMGM1NC00OTIwLWIzNGUtYTg3ZDkzMzFlYjZiXkEyXkFqcGdeQXVyNTY2NDExMTA@._V1_UY268_CR17,0,182,268_AL_.jpg",
+        "release_date": "05 September 2019",
+        "ranking": null
+    },
+    {
+        "id": 87,
+        "title": "Toy Story 4",
+        "imdb_id": "1979376",
+        "url": "https://www.imdb.com/title/tt1979376/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjI0Nzg3Nzk4OV5BMl5BanBnXkFtZTgwOTY5NjM3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "03 October 2019",
+        "ranking": null
+    },
+    {
+        "id": 88,
+        "title": "Spies in Disguise",
+        "imdb_id": "5814534",
+        "url": "https://www.imdb.com/title/tt5814534/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjA1MDQ4NTg1OF5BMl5BanBnXkFtZTgwODU3NDY2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "release_date": "10 October 2019",
+        "ranking": null
+    },
+    {
+        "id": 89,
+        "title": "Joker",
+        "imdb_id": "7286456",
+        "url": "https://www.imdb.com/title/tt7286456/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMjE5ZTNkNTQtZTY2Ny00YWFlLWEwNjItYjRkZDAzODg5MzA4XkEyXkFqcGdeQXVyNjYwODQ1Nzk@._V1_UY268_CR38,0,182,268_AL_.jpg",
+        "release_date": "17 October 2019",
+        "ranking": null
+    },
+    {
+        "id": 90,
+        "title": "Untitled Terminator Reboot",
+        "imdb_id": "6450804",
+        "url": "https://www.imdb.com/title/tt6450804/?ref_=rlm",
+        "image_url": "https://m.media-amazon.com/images/M/MV5BMTEzMTY5ODkyMTheQTJeQWpwZ15BbWU4MDgxMTQzMDYz._V1_UY268_CR110,0,182,268_AL_.jpg",
+        "release_date": "21 November 2019",
+        "ranking": null
+    },
+    {
+        "id": 91,
+        "title": "Frozen 2",
+        "imdb_id": "4520988",
+        "url": "https://www.imdb.com/title/tt4520988/?ref_=rlm",
+        "image_url": "",
+        "release_date": "28 November 2019",
+        "ranking": null
+    }
+]
