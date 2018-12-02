@@ -1,19 +1,27 @@
 import React, {Component} from 'react';
 import Button from "./Button";
+import genreJson from "../dummy-json-responses/Genres";
 
 class ButtonList extends Component {
 
-    /*
-    * jeweils den Namen übergeben und List of contents
-    * */
+     getGenres() {
+        const dataString = JSON.stringify(genreJson);
+        let jsonData = JSON.parse(dataString);
+        let genreArray = jsonData.genre;
+        let content = [];
 
+        for (let i = 0; i < genreArray.length; i++) {
+            content.push(genreArray[i]);
+        }
+        return content;
+    }
 
     render() {
         return (
             <div>
-                <Button title="Actor" select="filter by actor"/>
-                <Button title="Genre" select="filter by genre"/>
-                <Button title="Timeframe" select="filter by timeframe"/>
+                <Button title="Actor" select="select actor"/>
+                <Button title="Genre" select="select genre" content={this.getGenres()}/>
+                <Button title="Timeframe" select="select timeframe"/>
             </div>
         );
     }

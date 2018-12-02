@@ -8,13 +8,12 @@ class Button extends Component {
         this.state = {
             title: this.props.title,
             select: this.props.select,
-            content: []}
+            content: this.props.content || ["abc", "def", "default"]}
     }
+
     handleClick() {
         this.setState({ select: "New title" });
     }
-
-
 
     render() {
         return (
@@ -24,9 +23,9 @@ class Button extends Component {
                     <div className="dropdown">
                         <button className="dropbtn" onClick={this.handleClick}>{this.state.select}</button>
                         <div className="dropdown-content">
-                            <a href="#" >Sharukh</a>
-                            <a href="#">Khan</a>
-                            <a href="#">kh Kh</a>
+                            {this.state.content.map(function(choice){
+                                return (<a href="#">{choice}</a>)
+                            })}
                         </div>
                     </div>
                 </div>

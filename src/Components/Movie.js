@@ -7,7 +7,7 @@ export default function Movie(props) {
         <div className="teaser column">
             <a href={props.movies.url}>
             <img
-                src={props.movies.image_url || fallback} /*check if existent*/
+                src={props.movies.image_url || fallback}
                 className="image"
                 alt="logo"
             />
