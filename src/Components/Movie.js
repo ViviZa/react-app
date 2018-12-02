@@ -1,5 +1,5 @@
 import React from 'react';
-import fallback from '../images/fallback.png';
+import fallback from '../images/default_image_icon.png';
 
 export default function Movie(props) {
 
