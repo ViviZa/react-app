@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
+import fallback from '../images/fallback.png';
 
 export default function Movie(props) {
 
@@ -6,7 +7,7 @@ export default function Movie(props) {
         <div className="teaser column">
             <a href={props.movies.url}>
             <img
-                src={props.movies.image_url} /*check if existent*/
+                src={props.movies.image_url || fallback} /*check if existent*/
                 className="image"
                 alt="logo"
             />
