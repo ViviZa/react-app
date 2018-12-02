@@ -11,8 +11,8 @@ class Button extends Component {
             content: this.props.content || ["abc", "def", "default"]}
     }
 
-    handleClick() {
-        this.setState({ select: "New title" });
+    handleClick(param, e) {
+        this.setState({ select: param });
     }
 
     render() {
@@ -21,11 +21,12 @@ class Button extends Component {
                 <div className="dropdown">
                     <h3>{this.state.title}</h3>
                     <div className="dropdown">
-                        <button className="dropbtn" onClick={this.handleClick}>{this.state.select}</button>
+                        <button className="dropbtn">{this.state.select}</button>
                         <div className="dropdown-content">
                             {this.state.content.map(function(choice){
-                                return (<a href="#">{choice}</a>)
+                                return (<a key={choice} href="#">{choice}</a>)
                             })}
+                            <a href="#" onClick={this.handleClick.bind(this, 'Value')}>test-click</a> {/*example how to change dropdown-button content*/}
                         </div>
                     </div>
                 </div>
