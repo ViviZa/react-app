@@ -13,7 +13,16 @@ export default function Movie(props) {
             />
             </a>
             <div className="overlay">
-                <div className="rating">{/*include rating */}</div>
+                <div className="rating">
+                  <div className="movie-rating">{props.movies.rating}</div>
+                  <svg id="movie-star-icon" width="18px" height="17px" viewBox="0 0 18 17" version="1.1">
+                      <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                          <g id="Artboard" fill="#FBEC40">
+                              <polygon id="Star-Copy" points="9 13.5 3.70993273 16.2811529 4.72024568 10.3905765 0.440491353 6.21884705 6.35496636 5.35942353 9 0 11.6450336 5.35942353 17.5595086 6.21884705 13.2797543 10.3905765 14.2900673 16.2811529"></polygon>
+                          </g>
+                      </g>
+                  </svg>
+                </div>
 					<h5 className="genre">International</h5>
 					<h2 className="title max-lines">{props.movies.title}</h2>
 				<div className="release">
