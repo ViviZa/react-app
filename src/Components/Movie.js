@@ -9,7 +9,7 @@ export default function Movie(props) {
             <img
                 src={props.movies.image_url || fallback}
                 className="image"
-                alt="logo"
+                alt={props.movies.title}
             />
             </a>
             <div className="overlay">
@@ -39,4 +39,3 @@ export default function Movie(props) {
 		</div>
 	);
 }
-
