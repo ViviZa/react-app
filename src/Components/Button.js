@@ -1,4 +1,9 @@
 import React, {Component} from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faAngleDown)
 
 class Button extends Component {
 
@@ -21,7 +26,7 @@ class Button extends Component {
                 <div className="dropdown">
                     <h3>{this.state.title}</h3>
                     <div className="dropdown">
-                        <button className="dropbtn">{this.state.select}<span className="fa fa-angle-down arrow-down"></span></button>
+                        <button className="dropbtn">{this.state.select}<span className="arrow-down"><FontAwesomeIcon icon="angle-down" /></span></button>
                         <div className="dropdown-content">
                             {this.state.content.map(function(choice){
                                 return (<a key={choice} href="#">{choice}</a>)
