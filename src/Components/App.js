@@ -5,7 +5,6 @@ import Header from './Header';
 import FilterSection from './FilterSection'
 import Rating from './Rating';
 import MovieList from './MovieList';
-import ButtonList from './ButtonList';
 
 class App extends Component {
     constructor(props) {

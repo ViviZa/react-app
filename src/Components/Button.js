@@ -21,7 +21,7 @@ class Button extends Component {
                 <div className="dropdown">
                     <h3>{this.state.title}</h3>
                     <div className="dropdown">
-                        <button className="dropbtn">{this.state.select}</button>
+                        <button className="dropbtn">{this.state.select}<span className="fa fa-angle-down arrow-down"></span></button>
                         <div className="dropdown-content">
                             {this.state.content.map(function(choice){
                                 return (<a key={choice} href="#">{choice}</a>)
