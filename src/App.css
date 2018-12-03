@@ -19,14 +19,13 @@ body {
 }
 .column {
   width: 22.5%;
-  text-align: justify;
   display: inline-block;
   position: relative;
   padding: 0 10px;
 }
 .filter-column {
   width: 22.5%;
-  text-align: justify;
+  vertical-align: top;
   display: inline-block;
   position: relative;
   padding: 0 20px;
@@ -34,6 +33,7 @@ body {
 }
 .rating-column {
   width: 14.5%;
+  vertical-align: top;
   display: inline-block;
   position: relative;
   padding: 0 20px;
@@ -69,7 +69,7 @@ h4 {
   font-weight: 100;
 }
 h5 {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 100;
   margin: -15px 0 0 0;
   padding: 0 20px 5px 20px;
@@ -97,10 +97,19 @@ h5 {
 .title {
   color: #ffffff;
   text-align: left;
-  padding-left: 20px;
-  margin: 5px 0 5px 0;
-  font-size: 22px;
+  padding: 0 20px;
+  margin: 5px 0;
+  font-size: 18px;
+  min-height: 33%;
+  line-height: 1.4;
   letter-spacing: 1.2px;
+}
+.max-lines {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .movie-section {
   clear: both;
@@ -108,8 +117,6 @@ h5 {
   width: 100%;
   height: auto;
   background-color: #FFFFFF;
-  /* [disabled]min-width: 400px;
-*/
   padding-bottom: 35px;
   padding-top: 0px;
   margin-top: -5px;
@@ -158,6 +165,77 @@ h5 {
 }
 .checked{
   color: #F8E71C;
+}
+/* Rating Form */
+form .stars {
+  background: url("./images/stars.png") repeat-x 0 0;
+  width: 150px;
+}
+ 
+form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+form .stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("./images/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.3s;
+  -moz-transition: -moz-width 0.3s;
+  -ms-transition: -ms-width 0.3s;
+  -o-transition: -o-width 0.3s;
+  transition: width 0.3s;
 }
 /* Filter Section */
 .filter-section {
@@ -247,7 +325,7 @@ h5 {
     padding-bottom: 0;
   }
   .title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .release-icon{
     padding: 5px 0 30px 30px;
