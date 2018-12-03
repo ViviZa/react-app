@@ -68,13 +68,13 @@ h4 {
   margin: 2px 0 0 0;
   font-weight: 100;
 }
-h5 {
+/* h5 {
   font-size: 14px;
   font-weight: 100;
   margin: -15px 0 0 0;
   padding: 0 20px 5px 20px;
   letter-spacing: 1.2px;
-}
+} */
 .subline {
   text-align: center;
   color: #8d8d8d;
@@ -148,9 +148,29 @@ h5 {
   float: left;
   letter-spacing: 1.2px;
 }
-.genre {
+.genres {
+  font-size: 14px;
+  font-weight: 100;
+  margin: -15px 0 0 0;
+  padding: 0 20px 5px 20px;
+  letter-spacing: 1.2px;
   text-align: left;
-  width: 100%;
+  width: 60%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.genres::-webkit-scrollbar {
+    display: none;
+}
+.genres span {
+  display: inline-block;
+  margin: 0 5px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fff;
+}
+.genres span:first-of-type {
+  margin-left: 0;
 }
 /* Movie Rating */
 .rating {
@@ -358,7 +378,7 @@ form .stars span {
 
 /* Small Desktops */
 @media (min-width: 1045px) and (max-width: 1259px) {
-  h5 {
+  .genres {
     font-size: 14px;
     padding-bottom: 0;
   }
