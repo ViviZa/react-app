@@ -28,10 +28,7 @@ class Button extends Component {
                     <div className="dropdown">
                         <button className="dropbtn">{this.state.select}<span className="arrow-down"><FontAwesomeIcon icon="angle-down" /></span></button>
                         <div className="dropdown-content">
-                            {this.state.content.map(function(choice){
-                                return (<a key={choice} href="#">{choice}</a>)
-                            })}
-                            <a href="#" onClick={this.handleClick.bind(this, 'Value')}>test-click</a> {/*example how to change dropdown-button content*/}
+                            {this.state.content.map((choice,i) => <a key={i} onClick={this.handleClick.bind(this, 'Value')} href="#">{choice}</a>)}
                         </div>
                     </div>
                 </div>
