@@ -1,23 +1,13 @@
 import React, {Component} from 'react';
 import jsondata from "../dummy-json-responses/imdb_data";
 import Movie from "./Movie";
+import GetMovies from "./GetMovies";
 
 class MovieList extends Component {
 
     constructor() {
-        super()
-        this.state = {movies: []}
-    }
-
-    componentWillMount() {
-        const dataString = JSON.stringify(jsondata);
-        let jsonData = JSON.parse(dataString);
-        let movies = [];
-
-        for (let i = 0; i < jsonData.length; i++) {
-            movies.push(jsonData[i]);
-        }
-        this.state.movies = movies;
+        super();
+        this.state = {movies: GetMovies(jsondata)}
     }
 
     render() {
@@ -28,5 +18,6 @@ class MovieList extends Component {
         );
     }
 }
+
 
 export default MovieList;

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../App.css';
-//import './General.css';
 import Header from './Header';
 import FilterSection from './FilterSection'
 import Rating from './Rating';
