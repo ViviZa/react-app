@@ -11,3 +11,12 @@ export const parseMovies = (movieList) => {
 };
 
 export default parseMovies;
+
+
+
+
+export const getMovies = () => {
+    fetch('http://localhost:5000/getAllMovies').then(function (response) {
+        return response;
+    });
+}
