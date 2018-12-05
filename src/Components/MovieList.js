@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import jsondata from "../dummy-json-responses/imdb_data";
 import Movie from "./Movie";
-import GetMovies from "./GetMovies";
+import parseMovie from "./ParseJson";
 
 class MovieList extends Component {
 
     constructor() {
         super();
-        this.state = {movies: GetMovies(jsondata)}
+        this.state = {movies: parseMovie(jsondata)}
     }
 
     render() {

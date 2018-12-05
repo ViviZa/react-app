@@ -1,35 +1,39 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Button from './Button';
 import Rating from './Rating';
 import genreJson from "../dummy-json-responses/Genres";
+import actorJson from "../dummy-json-responses/Actors";
 
-class FilterSection extends Component {
+export default function FilterSection() {
 
-	getGenres() {
-		 const dataString = JSON.stringify(genreJson);
-		 let jsonData = JSON.parse(dataString);
-		 let genreArray = jsonData.genre;
-		 let content = [];
-
-		 for (let i = 0; i < genreArray.length; i++) {
-				 content.push(genreArray[i]);
-		 }
-		 return content;
- }
-     render() {
-				return (
-					<div className="filter-section">
-						<Button title="Actor" select="select actor"/>
-						<Button title="Genre" select="select genre" content={this.getGenres()}/>
-						<Button title="Timeframe" select="select timeframe"/>
-						<div className="rating-column">
-							<h3>Rating</h3>
-							<div className="rating-filter">
-								<Rating/>
-							</div>
-						</div>
-					</div>
-				);
-			}
+    return (
+        <div className="filter-section">
+            <Button title="Actor" select="select actor" content={getOptions(actorJson, "Actor")}/>
+            <Button title="Genre" select="select genre" content={getOptions(genreJson, "Genre")}/>
+            <Button title="Timeframe" select="select timeframe"/>
+            <div className="rating-column">
+                <h3>Rating</h3>
+                <div className="rating-filter">
+                    <Rating/>
+                </div>
+            </div>
+        </div>
+    );
 }
-export default FilterSection;
+
+const getOptions = (data, buttonType) => {
+    const dataString = JSON.stringify(data);
+    let jsonData = JSON.parse(dataString);
+    let genreArray = "";
+    if (buttonType === "Genre") {
+        genreArray = jsonData.genre
+    } else {
+        genreArray = jsonData.actor_list
+    }
+    let content = [];
+
+    for (let i = 0; i < genreArray.length; i++) {
+        content.push(genreArray[i]);
+    }
+    return content;
+};
