@@ -6,7 +6,7 @@
         "url": "https://www.imdb.com/title/tt2709692/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BYmE5Yjg0MzktYzgzMi00YTFiLWJjYTItY2M5MmI1ODI4MDY3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "29 November 2018",
-        "ranking": null
+        "ranking": 5.6
     },
     {
         "id": 2,
@@ -60,7 +60,7 @@
         "url": "https://www.imdb.com/title/tt8748608/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNTJmMWNkMTUtZDMwMC00OWJkLTliMWQtYzM5YjIyOGRjYjRhXkEyXkFqcGdeQXVyNTM5NjkxMzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
         "release_date": "29 November 2018",
-        "ranking": null
+        "ranking": 4.4
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@
         "url": "https://www.imdb.com/title/tt8359848/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjllYmQ2OGQtN2IxZC00ODJiLWI4NjQtYmNlZjYzNzUzYjkyXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_UY268_CR7,0,182,268_AL_.jpg",
         "release_date": "06 December 2018",
-        "ranking": null
+        "ranking": 2.3
     },
     {
         "id": 10,
@@ -114,7 +114,7 @@
         "url": "https://www.imdb.com/title/tt1571234/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNzY1MDA2OTQ0N15BMl5BanBnXkFtZTgwMTkzNjU2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "13 December 2018",
-        "ranking": null
+        "ranking": 1.2
     },
     {
         "id": 14,
@@ -150,7 +150,7 @@
         "url": "https://www.imdb.com/title/tt5028340/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTk0NDIzMTA1MF5BMl5BanBnXkFtZTgwMzM0MTUzNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "20 December 2018",
-        "ranking": null
+        "ranking": 9.9
     },
     {
         "id": 18,
@@ -177,7 +177,7 @@
         "url": "https://www.imdb.com/title/tt8075192/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BYWZmOTY0MDAtMGRlMS00YjFlLWFkZTUtYmJhYWNlN2JjMmZkXkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "27 December 2018",
-        "ranking": null
+        "ranking": 7.8
     },
     {
         "id": 21,
@@ -222,7 +222,7 @@
         "url": "https://www.imdb.com/title/tt5989218/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BM2ZmY2I2ZDktZjhhMC00YmFmLWIyNDUtODk0NjY3Y2Q5MmRiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "03 January 2019",
-        "ranking": null
+        "ranking": 6.6
     },
     {
         "id": 26,
@@ -267,7 +267,7 @@
         "url": "https://www.imdb.com/title/tt2328900/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNDVmOGI4MTMtYmNmNC00MTliLTlkYjQtYmU2N2EyNDk2YTAwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "17 January 2019",
-        "ranking": null
+        "ranking": 3.3
     },
     {
         "id": 31,
@@ -285,7 +285,7 @@
         "url": "https://www.imdb.com/title/tt6823368/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTE0NDQ0MzgyODdeQTJeQWpwZ15BbWU4MDc5MTQzOTUz._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "17 January 2019",
-        "ranking": null
+        "ranking": 5.5
     },
     {
         "id": 33,
@@ -312,7 +312,7 @@
         "url": "https://www.imdb.com/title/tt8632862/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjE4NDYxNTk4MV5BMl5BanBnXkFtZTgwNTE1MDMxNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "17 January 2019",
-        "ranking": null
+        "ranking": 4.4
     },
     {
         "id": 36,
@@ -384,7 +384,7 @@
         "url": "https://www.imdb.com/title/tt7959026/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTc1OTc5NzA4OF5BMl5BanBnXkFtZTgwOTAzMzE2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "31 January 2019",
-        "ranking": null
+        "ranking": 5.4
     },
     {
         "id": 44,
@@ -393,7 +393,7 @@
         "url": "https://www.imdb.com/title/tt5734576/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjA1MTIwODY4Nl5BMl5BanBnXkFtZTgwNzkxNDc2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "31 January 2019",
-        "ranking": null
+        "ranking": 7.3
     },
     {
         "id": 45,
@@ -402,7 +402,7 @@
         "url": "https://www.imdb.com/title/tt2837574/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BOTk3NjU5MjIxM15BMl5BanBnXkFtZTgwNjU0OTU2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "31 January 2019",
-        "ranking": null
+        "ranking": 6.7
     },
     {
         "id": 46,
@@ -411,7 +411,7 @@
         "url": "https://www.imdb.com/title/tt7315484/?ref_=rlm",
         "image_url": "",
         "release_date": "31 January 2019",
-        "ranking": null
+        "ranking": 1.2
     },
     {
         "id": 47,
@@ -420,7 +420,7 @@
         "url": "https://www.imdb.com/title/tt5268348/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjQxNDU1NDMyOV5BMl5BanBnXkFtZTgwMzUyNTA2NDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "31 January 2019",
-        "ranking": null
+        "ranking": 4.5
     },
     {
         "id": 48,
@@ -429,7 +429,7 @@
         "url": "https://www.imdb.com/title/tt3513498/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTkyOTkwNDc1N15BMl5BanBnXkFtZTgwNzkyMzk3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "07 February 2019",
-        "ranking": null
+        "ranking": 8.9
     },
     {
         "id": 49,
@@ -438,7 +438,7 @@
         "url": "https://www.imdb.com/title/tt4595882/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjQzMzEzNDU2NV5BMl5BanBnXkFtZTgwMzQ4NTUwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "07 February 2019",
-        "ranking": null
+        "ranking": 1.2
     },
     {
         "id": 50,
@@ -447,7 +447,7 @@
         "url": "https://www.imdb.com/title/tt5886046/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjQ2NDMwMTY3MF5BMl5BanBnXkFtZTgwNDg5OTc1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "07 February 2019",
-        "ranking": null
+        "ranking": 3.2
     },
     {
         "id": 51,
@@ -456,7 +456,7 @@
         "url": "https://www.imdb.com/title/tt0437086/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjQyNjkzMTI1Nl5BMl5BanBnXkFtZTgwNTE5Mjc0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "12 February 2019",
-        "ranking": null
+        "ranking": 2.3
     },
     {
         "id": 52,
@@ -465,7 +465,7 @@
         "url": "https://www.imdb.com/title/tt7125860/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTEzNTYzMTg0OTdeQTJeQWpwZ15BbWU4MDg1OTQzODYz._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "14 February 2019",
-        "ranking": null
+        "ranking": 5.2
     },
     {
         "id": 53,
@@ -474,7 +474,7 @@
         "url": "https://www.imdb.com/title/tt4537896/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNzNlZWVmMjYtY2JhNi00OGZmLWJmODgtODgyMmI3NDM0NWE5XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "14 February 2019",
-        "ranking": null
+        "ranking": 6.7
     },
     {
         "id": 54,
@@ -483,7 +483,7 @@
         "url": "https://www.imdb.com/title/tt7008872/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNzM2MzU1NTM4NF5BMl5BanBnXkFtZTgwNTMwMzI1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "21 February 2019",
-        "ranking": null
+        "ranking": 8.9
     },
     {
         "id": 55,
@@ -492,7 +492,7 @@
         "url": "https://www.imdb.com/title/tt8097306/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjM0MjQ2OTIyNl5BMl5BanBnXkFtZTgwMDM4MTgwNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "21 February 2019",
-        "ranking": null
+        "ranking": 8.9
     },
     {
         "id": 56,
@@ -501,7 +501,7 @@
         "url": "https://www.imdb.com/title/tt2386490/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "21 February 2019",
-        "ranking": null
+        "ranking": 1.2
     },
     {
         "id": 57,
@@ -510,7 +510,7 @@
         "url": "https://www.imdb.com/title/tt4669788/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BYzJlYmEwYjEtMmE1Ny00ZjdiLTg2ZjctMmMxYjRhNGJkNTY2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR3,0,182,268_AL_.jpg",
         "release_date": "28 February 2019",
-        "ranking": null
+        "ranking": 5.5
     },
     {
         "id": 58,
@@ -519,7 +519,7 @@
         "url": "https://www.imdb.com/title/tt5719748/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BOGY3YjUzOTgtMmJmMS00ZDJjLTkwOGEtYWE3Mjk0ZTgwYmY4XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "28 February 2019",
-        "ranking": null
+        "ranking": 6.6
     },
     {
         "id": 59,
@@ -528,7 +528,7 @@
         "url": "https://www.imdb.com/title/tt6811018/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjAxODM5NTkxNl5BMl5BanBnXkFtZTgwMTA0Mzc0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "01 March 2019",
-        "ranking": null
+        "ranking": 7.7
     },
     {
         "id": 60,
@@ -546,7 +546,7 @@
         "url": "https://www.imdb.com/title/tt6938828/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BOTRmZGJiZjUtMGJjYi00MzZhLTkzYjUtODE1Yjk5ZDRiODhlXkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "07 March 2019",
-        "ranking": null
+        "ranking": 6.4
     },
     {
         "id": 62,
@@ -564,7 +564,7 @@
         "url": "https://www.imdb.com/title/tt4827558/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMGVlZjkxOTctYWU0ZS00NTUxLTlmZmYtYjQxODZmNTBhOTM4XkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_UY268_CR7,0,182,268_AL_.jpg",
         "release_date": "14 March 2019",
-        "ranking": null
+        "ranking": 5.5
     },
     {
         "id": 64,
@@ -582,7 +582,7 @@
         "url": "https://www.imdb.com/title/tt3861390/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNjMxMDE0MDI1Ml5BMl5BanBnXkFtZTgwMzExNTU3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "04 April 2019",
-        "ranking": null
+        "ranking": 1.2
     },
     {
         "id": 66,
@@ -591,7 +591,7 @@
         "url": "https://www.imdb.com/title/tt0448115/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BNTkxNDU1NzMwOF5BMl5BanBnXkFtZTgwMjA5MDkwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "04 April 2019",
-        "ranking": null
+        "ranking": 3.4
     },
     {
         "id": 67,
@@ -600,7 +600,7 @@
         "url": "https://www.imdb.com/title/tt0837563/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjA2NDc1NDc1Nl5BMl5BanBnXkFtZTgwNDMzNjA1NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "04 April 2019",
-        "ranking": null
+        "ranking": 4.3
     },
     {
         "id": 68,
@@ -618,7 +618,7 @@
         "url": "https://www.imdb.com/title/tt5968394/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTgyNjU0NTAxOV5BMl5BanBnXkFtZTgwNTc4MDIzNjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "11 April 2019",
-        "ranking": null
+        "ranking": 5.6
     },
     {
         "id": 70,
@@ -636,7 +636,7 @@
         "url": "https://www.imdb.com/title/tt6428676/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTc5M2FlMTgtMjQyYi00ZjQ2LWIyMjEtMWQyZDBkOGQwMTYzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "11 April 2019",
-        "ranking": null
+        "ranking": 6.6
     },
     {
         "id": 72,
@@ -645,7 +645,7 @@
         "url": "https://www.imdb.com/title/tt4154796/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/180x268/film-173410679._CB470041619_.png",
         "release_date": "25 April 2019",
-        "ranking": null
+        "ranking": 6.1
     },
     {
         "id": 73,
@@ -654,7 +654,7 @@
         "url": "https://www.imdb.com/title/tt5789976/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjQyMjEzMjQxMV5BMl5BanBnXkFtZTgwNjU4Njg3NTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "03 May 2019",
-        "ranking": null
+        "ranking": 7.7
     },
     {
         "id": 74,
@@ -663,7 +663,7 @@
         "url": "https://www.imdb.com/title/tt5884052/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTk1MjgwNjM2MV5BMl5BanBnXkFtZTgwMzMyODM3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "09 May 2019",
-        "ranking": null
+        "ranking": 8.8
     },
     {
         "id": 75,
@@ -690,7 +690,7 @@
         "url": "https://www.imdb.com/title/tt2935510/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BM2FjOTZmNTItNDgzMS00NzY5LTg1YWQtYjk0YmY3OGI2NzNkXkEyXkFqcGdeQXVyNzQzMTg3OTQ@._V1_UY268_CR64,0,182,268_AL_.jpg",
         "release_date": "23 May 2019",
-        "ranking": null
+        "ranking": 4.5
     },
     {
         "id": 78,
@@ -699,7 +699,7 @@
         "url": "https://www.imdb.com/title/tt6565702/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjM0NjcyMzU5Nl5BMl5BanBnXkFtZTgwNTE2MzU0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "06 June 2019",
-        "ranking": null
+        "ranking": 5.5
     },
     {
         "id": 79,
@@ -717,7 +717,7 @@
         "url": "https://www.imdb.com/title/tt6320628/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BZDljOGNhOWUtNmIzNC00ZjRkLWI1YTQtNjliMTJkMzhlODUxXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_UY268_CR6,0,182,268_AL_.jpg",
         "release_date": "05 July 2019",
-        "ranking": null
+        "ranking": 3.3
     },
     {
         "id": 81,
@@ -735,7 +735,7 @@
         "url": "https://www.imdb.com/title/tt6806448/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMmQyMGQ4OWMtNjNjNy00ZTdkLWFjMjUtMDlkMDlhNTg1NjUzXkEyXkFqcGdeQXVyNjA4MjkzMzA@._V1_UY268_CR124,0,182,268_AL_.jpg",
         "release_date": "01 August 2019",
-        "ranking": null
+        "ranking": 6.5
     },
     {
         "id": 83,
@@ -753,7 +753,7 @@
         "url": "https://www.imdb.com/title/tt4682266/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTgxNzM1NzExM15BMl5BanBnXkFtZTgwODMwMDIzNDM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "22 August 2019",
-        "ranking": null
+        "ranking": 7.8
     },
     {
         "id": 85,
@@ -762,7 +762,7 @@
         "url": "https://www.imdb.com/title/tt3089630/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjI2NzE5MzQ4N15BMl5BanBnXkFtZTgwNDEwNDM4NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "22 August 2019",
-        "ranking": null
+        "ranking": 5.5
     },
     {
         "id": 86,
@@ -789,7 +789,7 @@
         "url": "https://www.imdb.com/title/tt5814534/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMjA1MDQ4NTg1OF5BMl5BanBnXkFtZTgwODU3NDY2NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "release_date": "10 October 2019",
-        "ranking": null
+        "ranking": 6.5
     },
     {
         "id": 89,
@@ -807,7 +807,7 @@
         "url": "https://www.imdb.com/title/tt6450804/?ref_=rlm",
         "image_url": "https://m.media-amazon.com/images/M/MV5BMTEzMTY5ODkyMTheQTJeQWpwZ15BbWU4MDgxMTQzMDYz._V1_UY268_CR110,0,182,268_AL_.jpg",
         "release_date": "21 November 2019",
-        "ranking": null
+        "ranking": 8.8
     },
     {
         "id": 91,
