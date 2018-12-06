@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import DropDown from './DropDown';
 import Rating from './Rating';
 import genreJson from "../dummy-json-responses/Genres";
 import actorJson from "../dummy-json-responses/Actors";
@@ -8,9 +8,9 @@ export default function FilterSection() {
 
     return (
         <div className="filter-section">
-            <Button title="Actor" select="select actor" content={getOptions(actorJson, "Actor")}/>
-            <Button title="Genre" select="select genre" content={getOptions(genreJson, "Genre")}/>
-            <Button title="Timeframe" select="select timeframe"/>
+            <DropDown title="Actor" content={getOptions(actorJson, "Actor")}/>
+            <DropDown title="Genre"  content={getOptions(genreJson, "Genre")}/>
+            <DropDown title="Timeframe" />
             <div className="rating-column">
                 <h3>Rating</h3>
                 <div className="rating-filter">
@@ -20,7 +20,6 @@ export default function FilterSection() {
         </div>
     );
 }
-
 const getOptions = (data, buttonType) => {
     const dataString = JSON.stringify(data);
     let jsonData = JSON.parse(dataString);
