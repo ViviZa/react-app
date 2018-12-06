@@ -1,7 +1,6 @@
 
 export const parseMovies = (movieList) => {
-    const dataString = JSON.stringify(movieList);
-    let jsonData = JSON.parse(dataString);
+    let jsonData = JSON.parse(movieList);
     let movies = [];
 
     for (let i = 0; i < jsonData.length; i++) {
