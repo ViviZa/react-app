@@ -60,7 +60,8 @@ export default function Movie(props) {
 }
 
 const imageCheck = (imageData) => {
-    if (imageData === "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/180x268/film-173410679._CB470041619_.png" || imageData === "") {
+    const defaultImgByImbd = "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/180x268/film-173410679._CB470041619_.png";
+    if (imageData === defaultImgByImbd || imageData === "") {
         imageData = fallback;
     }
     return imageData;
