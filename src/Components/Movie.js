@@ -7,7 +7,7 @@ export default function Movie(props) {
         <div className="teaser column">
             <a href={props.movies.url}>
                 <img
-                    src={props.movies.image_url || fallback}
+                    src={imageCheck(props.movies.image_url)}
                     className="image"
                     alt={props.movies.title}
                 />
@@ -57,4 +57,11 @@ export default function Movie(props) {
             </div>
         </div>
     );
+}
+
+const imageCheck = (imageData) => {
+    if (imageData === "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/180x268/film-173410679._CB470041619_.png" || imageData === "") {
+        imageData = fallback;
+    }
+    return imageData;
 }
