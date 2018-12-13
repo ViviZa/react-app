@@ -1,5 +1,6 @@
 
 export const parseMovies = (movieList) => {
+  //für lokales Arbeiten:  const dataString = JSON.stringify(movieList);
     let jsonData = JSON.parse(movieList);
     let movies = [];
 

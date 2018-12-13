@@ -4,12 +4,12 @@ import Rating from './Rating';
 import genreJson from "../dummy-json-responses/Genres";
 import actorJson from "../dummy-json-responses/Actors";
 
-export default function FilterSection() {
+export default function FilterSection(props) {
 
     return (
         <div className="filter-section">
-            <DropDown title="Actor" content={getOptions(actorJson, "Actor")}/>
-            <DropDown title="Genre"  content={getOptions(genreJson, "Genre")}/>
+            <DropDown title="Actor" content={getOptions(actorJson, "Actor")} rerender={props.renderApp}/>
+            <DropDown title="Genre"  content={getOptions(genreJson, "Genre")} rerender={props.renderApp}/>
             <DropDown title="Timeframe" />
             <div className="rating-column">
                 <h3>Rating</h3>

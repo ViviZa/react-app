@@ -18,6 +18,7 @@ class DropDown extends Component {
 
     handleClick(param) {
         this.setState({ select: param });
+        this.props.rerender();
     }
 
     render() {
