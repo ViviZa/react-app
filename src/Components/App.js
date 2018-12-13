@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import '../App.css';
 import Header from './Header';
-import FilterSection from './FilterSection'
 import MovieList from './MovieList';
+import FilterSection from './FilterSection';
 import parseMovies from "./ParseJson";
 import jsondata from "../dummy-json-responses/imdb_data";
 
@@ -10,33 +10,28 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.onDropDownClick = this.onDropDownClick.bind(this);
-        this.onResetClick = this.onResetClick.bind(this);
-        this.onRenderCurrentMovies = this.onRenderCurrentMovies.bind(this);
+        this.renderMovies = this.renderMovies.bind(this);
         this.state = { movies: [] }
     }
 
     componentWillMount() {
-        this.onRenderCurrentMovies();
+        this.renderMovies();
     }
 
-    onRenderCurrentMovies(){
+    renderMovies(){
         fetch('http://127.0.0.1:5000/getAllMovies')
             .then(response => response.json())
             .then(json => parseMovies(json))
-            .then(data => this.setState({ movies: data }));
+            then(data => this.setState({ movies: data }));
         // für lokales arbeiten:
         // this.state.movies = parseMovies(jsondata);
     }
 
-    onDropDownClick(){
+    onDropDownClick(actor, genre, rating){
         //TODO: fetch backend by filter criteria
+        console.log("actor " + actor + "..." +  "genre " + genre + "..." + "rating" + rating);
         //now it just clears movies
         this.state.movies = [];
-        this.forceUpdate();
-    }
-
-    onResetClick(){
-        this.onRenderCurrentMovies();
         this.forceUpdate();
     }
 
@@ -45,7 +40,6 @@ class App extends Component {
             <div className="container">
                 <Header/>
                 <FilterSection renderApp={this.onDropDownClick}/>
-                <button onClick={this.onResetClick}>Reset</button>
                 <MovieList movies={this.state.movies}/>
             </div>
         );

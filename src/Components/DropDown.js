@@ -17,8 +17,13 @@ class DropDown extends Component {
     }
 
     handleClick(param) {
-        this.setState({ select: param });
-        this.props.rerender();
+        this.state.select = param;
+        this.props.onDropDownClick(this.props.type, this.state.select);
+    }
+
+    onResetFilter(){
+        this.state.select = "select" ;
+        this.props.onDropDownClick(this.props.type, "");
     }
 
     render() {
@@ -26,7 +31,7 @@ class DropDown extends Component {
             <div className="filter-column">
               <div className="filter-headline">
                 <h3>{this.props.title}</h3>
-                <button className="reset-button" onClick={this.handleClick.bind(this, "select")}>
+                <button className="reset-button" onClick={this.onResetFilter.bind(this)}>
                   <span className="reset-filter"><FontAwesomeIcon icon="undo" /></span>
                 </button>
               </div>
