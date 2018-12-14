@@ -45,6 +45,7 @@ class FilterSection extends Component {
 export default FilterSection;
 
 const getOptions = (data, buttonType) => {
+    //TODO: call getMovies, getGenres, getRating
     const dataString = JSON.stringify(data);
     let jsonData = JSON.parse(dataString);
     let genreArray = "";
