@@ -22,7 +22,7 @@ class App extends Component {
         fetch('http://127.0.0.1:5000/getAllMovies')
             .then(response => response.json())
             .then(json => parseMovies(json))
-            then(data => this.setState({ movies: data }));
+            .then(data => this.setState({ movies: data }));
         // für lokales arbeiten:
         // this.state.movies = parseMovies(jsondata);
     }
@@ -36,11 +36,20 @@ class App extends Component {
     }
 
     render() {
+        const movieState = this.state.movies;
+        let movies;
+
+        if (movieState.length === 0) {
+            movies = <p>No movies available</p>;
+        } else {
+            movies = <MovieList movies={this.state.movies}/>;
+        }
+
         return (
             <div className="container">
                 <Header/>
                 <FilterSection renderApp={this.onDropDownClick}/>
-                <MovieList movies={this.state.movies}/>
+                {movies}
             </div>
         );
     }
