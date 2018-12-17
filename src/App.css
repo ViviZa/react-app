@@ -384,6 +384,8 @@ form .stars span {
 .dropdown:hover .arrow-down {
   transition: 0.25s;
   transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
 }
 
 .arrow-down {
@@ -397,6 +399,12 @@ form .stars span {
   color: #000;
   display: inline-block;
   margin: 23px 5px auto 5px;
+}
+.reset-button:active {
+  transition: 0.25s;
+  transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
 }
 
 /* Small Desktops */
