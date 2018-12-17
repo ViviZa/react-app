@@ -378,6 +378,13 @@ form .stars span {
 .dropdown:hover .dropbtn {
   background-color: #F4F4F4;
 }
+
+/* Rotate icon with hover */
+.dropdown:hover .arrow-down {
+  transition: 0.25s;
+  transform: rotateX(180deg);
+}
+
 .arrow-down {
   margin-top: 3px;
   float: right;
