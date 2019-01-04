@@ -3,6 +3,7 @@ import '../App.css';
 import Header from './Header';
 import MovieList from './MovieList';
 import FilterSection from './FilterSection';
+import NotFound from './NotFound';
 import parseMovies from "./ParseJson";
 import jsondata from "../dummy-json-responses/imdb_data";
 
@@ -40,7 +41,7 @@ class App extends Component {
         let movies;
 
         if (movieState.length === 0) {
-            movies = <p>No movies available</p>;
+            movies = <div className="no-movies"><NotFound/><p>No movies with selected criteria available.</p></div>;
         } else {
             movies = <MovieList movies={this.state.movies}/>;
         }
