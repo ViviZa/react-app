@@ -31,12 +31,7 @@ class FilterSection extends Component {
             <div className="filter-section">
                 <DropDown title="Actor" type="actor" content={this.props.actors} onDropDownClick={this.onDropDownClick}/>
                 <DropDown title="Genre" type="genre" content={this.props.genres} onDropDownClick={this.onDropDownClick}/>
-                <div className="rating-column">
-                    <h3>Rating</h3>
-                    <div className="rating-filter">
-                        <Rating onDropDownClick={this.onDropDownClick}/>
-                    </div>
-                </div>
+                <Rating onDropDownClick={this.onDropDownClick}/>
             </div>
         );
     }
