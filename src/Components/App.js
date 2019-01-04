@@ -12,11 +12,16 @@ class App extends Component {
         super(props);
         this.onDropDownClick = this.onDropDownClick.bind(this);
         this.renderMovies = this.renderMovies.bind(this);
-        this.state = { movies: [] }
+        this.state = {
+            movies: [],
+            genres: []
+        }
+
     }
 
     componentWillMount() {
         this.renderMovies();
+        this.getGenres();
     }
 
     renderMovies(){
@@ -26,6 +31,13 @@ class App extends Component {
             .then(data => this.setState({ movies: data }));
         // für lokales arbeiten:
         // this.state.movies = parseMovies(jsondata);
+    }
+
+    getGenres(){
+        fetch('http://127.0.0.1:5000/getAllGenres')
+            .then(response => response.json())
+            .then(json => parseMovies(json))
+            .then(data => this.setState({ genres: data }));
     }
 
     onDropDownClick(actor, genre, rating){
@@ -49,7 +61,7 @@ class App extends Component {
         return (
             <div className="container">
                 <Header/>
-                <FilterSection renderApp={this.onDropDownClick}/>
+                <FilterSection renderApp={this.onDropDownClick} genres={this.state.genres}/>
                 {movies}
             </div>
         );
