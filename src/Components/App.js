@@ -23,9 +23,9 @@ class App extends Component {
         fetch('http://127.0.0.1:5000/getAllMovies')
             .then(response => response.json())
             .then(json => parseMovies(json))
-            .then(data => this.setState({ movies: data }));
+            // .then(data => this.setState({ movies: data }));
         // für lokales arbeiten:
-        // this.state.movies = parseMovies(jsondata);
+        this.state.movies = parseMovies(jsondata);
     }
 
     onDropDownClick(actor, genre, rating){
