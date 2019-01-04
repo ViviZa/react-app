@@ -30,7 +30,6 @@ class FilterSection extends Component {
             <div className="filter-section">
                 <DropDown title="Actor" type="actor" content={getOptions(actorJson, "Actor")} onDropDownClick={this.onDropDownClick}/>
                 <DropDown title="Genre" type="genre" content={getOptions(genreJson, "Genre")} onDropDownClick={this.onDropDownClick}/>
-                <DropDown title="Timeframe" type="timeframe"/>
                 <div className="rating-column">
                     <h3>Rating</h3>
                     <div className="rating-filter">
