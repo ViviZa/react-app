@@ -14,14 +14,15 @@ class App extends Component {
         this.renderMovies = this.renderMovies.bind(this);
         this.state = {
             movies: [],
-            genres: []
+            genres: [],
+            actors: []
         }
-
     }
 
     componentWillMount() {
         this.renderMovies();
         this.getGenres();
+        this.getActors();
     }
 
     renderMovies(){
@@ -38,6 +39,13 @@ class App extends Component {
             .then(response => response.json())
             .then(json => parseMovies(json))
             .then(data => this.setState({ genres: data }));
+    }
+
+    getActors(){
+        fetch('http://127.0.0.1:5000/getAllActors')
+            .then(response => response.json())
+            .then(json => parseMovies(json))
+            .then(data => this.setState({ actors: data }));
     }
 
     onDropDownClick(actor, genre, rating){
@@ -61,7 +69,7 @@ class App extends Component {
         return (
             <div className="container">
                 <Header/>
-                <FilterSection renderApp={this.onDropDownClick} genres={this.state.genres}/>
+                <FilterSection renderApp={this.onDropDownClick} genres={this.state.genres} actors={this.state.actors}/>
                 {movies}
             </div>
         );

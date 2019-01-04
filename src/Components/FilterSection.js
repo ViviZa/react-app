@@ -29,7 +29,7 @@ class FilterSection extends Component {
     render() {
         return (
             <div className="filter-section">
-                <DropDown title="Actor" type="actor" content={getOptions(actorJson, "Actor")} onDropDownClick={this.onDropDownClick}/>
+                <DropDown title="Actor" type="actor" content={this.props.actors} onDropDownClick={this.onDropDownClick}/>
                 <DropDown title="Genre" type="genre" content={this.props.genres} onDropDownClick={this.onDropDownClick}/>
                 <div className="rating-column">
                     <h3>Rating</h3>
