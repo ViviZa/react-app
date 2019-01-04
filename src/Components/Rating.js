@@ -11,8 +11,8 @@ class Rating extends Component {
 	}
 
 	handleClick(param) {
-			this.state.value = param.target.value;
-			// alert("Input: " + this.state.value);
+        	this.state.value = param.target.value;
+        	this.props.onDropDownClick("rating", this.state.value);
 	}
 
 	render() {

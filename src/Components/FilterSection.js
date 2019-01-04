@@ -33,7 +33,7 @@ class FilterSection extends Component {
                 <div className="rating-column">
                     <h3>Rating</h3>
                     <div className="rating-filter">
-                        <Rating/>
+                        <Rating onDropDownClick={this.onDropDownClick}/>
                     </div>
                 </div>
             </div>
