@@ -127,6 +127,24 @@ h4 {
   margin-top: -5px;
   margin-bottom: 0px;
 }
+.no-movies {
+  text-align: center;
+  padding-top: 4%;
+  margin: auto;
+  background: #F4F4F4;
+}
+.no-movies svg{
+  width: 13%;
+  height: auto;
+}
+.no-movies p {
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 3% 0;
+  font-size: 24px;
+  font-weight: 500;
+}
 .teaser {
   margin-top: 25px;
 }
