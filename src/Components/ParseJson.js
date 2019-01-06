@@ -1,13 +1,13 @@
 
-const parseMovies = (movieList) => {
+const parseData = (dataList) => {
   //für lokales Arbeiten:  const dataString = JSON.stringify(movieList);
-    let jsonData = JSON.parse(movieList);
-    let movies = [];
+    let jsonData = JSON.parse(dataList);
+    let data = [];
 
     for (let i = 0; i < jsonData.length; i++) {
-        movies.push(jsonData[i]);
+        data.push(jsonData[i]);
     }
-    return movies;
+    return data;
 };
 
-export default parseMovies;
+export default parseData;

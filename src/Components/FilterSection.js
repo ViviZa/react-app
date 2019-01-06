@@ -3,7 +3,7 @@ import DropDown from './DropDown';
 import Rating from './Rating';
 import genreJson from "../dummy-json-responses/Genres";
 import actorJson from "../dummy-json-responses/Actors";
-import {parseMovies} from "./ParseJson";
+import {parseData} from "./ParseJson";
 
 
 class FilterSection extends Component {

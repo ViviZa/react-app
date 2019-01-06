@@ -4,7 +4,7 @@ import Header from './Header';
 import MovieList from './MovieList';
 import FilterSection from './FilterSection';
 import NotFound from './NotFound';
-import parseMovies from "./ParseJson";
+import parseData from "./ParseJson";
 import jsondata from "../dummy-json-responses/imdb_data";
 
 class App extends Component {
@@ -28,23 +28,23 @@ class App extends Component {
     renderMovies(){
         fetch('http://127.0.0.1:5000/getAllMovies')
             .then(response => response.json())
-            .then(json => parseMovies(json))
+            .then(json => parseData(json))
             .then(data => this.setState({ movies: data }));
         // für lokales arbeiten:
-        // this.state.movies = parseMovies(jsondata);
+        // this.state.movies = parseData(jsondata);
     }
 
     getGenres(){
         fetch('http://127.0.0.1:5000/getAllGenres')
             .then(response => response.json())
-            .then(json => parseMovies(json))
+            .then(json => parseData(json))
             .then(data => this.setState({ genres: data }));
     }
 
     getActors(){
         fetch('http://127.0.0.1:5000/getAllActors')
             .then(response => response.json())
-            .then(json => parseMovies(json))
+            .then(json => parseData(json))
             .then(data => this.setState({ actors: data }));
     }
 
