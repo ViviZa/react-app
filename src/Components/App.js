@@ -11,7 +11,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.onDropDownClick = this.onDropDownClick.bind(this);
-        this.renderMovies = this.renderMovies.bind(this);
+        this.getMovies = this.getMovies.bind(this);
         this.state = {
             movies: [],
             genres: [],
@@ -20,12 +20,12 @@ class App extends Component {
     }
 
     componentWillMount() {
-        this.renderMovies();
+        this.getMovies();
         this.getGenres();
         this.getActors();
     }
 
-    renderMovies(){
+    getMovies(){
         fetch('http://127.0.0.1:5000/getAllMovies')
             .then(response => response.json())
             .then(json => parseData(json))
