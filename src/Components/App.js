@@ -5,7 +5,6 @@ import MovieList from './MovieList';
 import FilterSection from './FilterSection';
 import NotFound from './NotFound';
 import parseData from "./ParseJson";
-import jsondata from "../dummy-json-responses/imdb_data";
 
 class App extends Component {
     constructor(props) {
@@ -15,7 +14,9 @@ class App extends Component {
         this.state = {
             movies: [],
             genres: [],
-            actors: []
+            actors: [],
+            noBackEndResponse: false,
+            isLoading: false
         }
     }
 
@@ -25,32 +26,33 @@ class App extends Component {
         this.getActors();
     }
 
-    getMovies(){
+    getMovies() {
+        this.setState({isLoading: true});
+
         fetch('http://127.0.0.1:5000/getAllMovies')
             .then(response => response.json())
             .then(json => parseData(json))
-            .then(data => this.setState({ movies: data }));
-        // für lokales arbeiten:
-        // this.state.movies = parseData(jsondata);
+            .then(data => this.setState({movies: data, isLoading: false}))
+            .catch(error => this.setState({error ,noBackEndResponse: true, isLoading: false}));
     }
 
-    getGenres(){
+    getGenres() {
         fetch('http://127.0.0.1:5000/getAllGenres')
             .then(response => response.json())
             .then(json => parseData(json))
-            .then(data => this.setState({ genres: data }));
+            .then(data => this.setState({genres: data}));
     }
 
-    getActors(){
+    getActors() {
         fetch('http://127.0.0.1:5000/getAllActors')
             .then(response => response.json())
             .then(json => parseData(json))
-            .then(data => this.setState({ actors: data }));
+            .then(data => this.setState({actors: data}));
     }
 
-    onDropDownClick(actor, genre, rating){
+    onDropDownClick(actor, genre, rating) {
         //TODO: fetch backend by filter criteria
-        console.log("actor " + actor + "..." +  "genre " + genre + "..." + "rating" + rating);
+        console.log("actor " + actor + "..." + "genre " + genre + "..." + "rating" + rating);
         //now it just clears movies
         this.state.movies = [];
         this.forceUpdate();
@@ -58,12 +60,18 @@ class App extends Component {
 
     render() {
         const movieState = this.state.movies;
-        let movies;
 
-        if (movieState.length === 0) {
-            movies = <div className="no-movies"><NotFound/><p>No movies with selected criteria available.</p></div>;
-        } else {
+        if (this.state.isLoading) movies = <MovieList movies=""/>;
+
+        if (this.state.noBackEndResponse) {
+            //if back-end does not response
+            movies = <div className="no-movies"><NotFound/><p>No movies available.</p></div>;
+        } else if (movieState.length !== 0){
+            //if back-end did response with movies
             movies = <MovieList movies={this.state.movies}/>;
+        } else {
+            //if back-end did response with no movies
+            movies = <div className="no-movies"><NotFound/><p>No movies with selected criteria available.</p></div>;
         }
 
         return (
