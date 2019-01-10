@@ -1,4 +1,3 @@
-
 const parseData = (dataList) => {
     let jsonData = JSON.parse(dataList);
     let data = [];

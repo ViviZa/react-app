@@ -64,4 +64,4 @@ const imageCheck = (imageData) => {
         imageData = fallback;
     }
     return imageData;
-}
+};
