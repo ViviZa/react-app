@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import '../App.css';
-import Header from './Header';
-import MovieList from './MovieList';
-import FilterSection from './FilterSection';
-import NotFound from './NotFound';
-import parseData from "./ParseJson";
+import './App.css';
+import Header from './Components/Header';
+import MovieList from './Components/MovieList';
+import FilterSection from './Components/FilterSection';
+import NotFound from './Components/NotFound';
+import parseData from "./Components/ParseJson";
 
 class App extends Component {
     constructor(props) {
@@ -57,7 +57,7 @@ class App extends Component {
         let movies;
         const movieState = this.state.movies;
 
-        if (movieState[0] == 'initialState'){
+        if (movieState[0] === 'initialState'){
             //if movies are still fetched
             movies = <p>is Loading...</p>
        } else if (movieState.length !== 0){
