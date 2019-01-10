@@ -59,6 +59,7 @@ class App extends Component {
     }
 
     render() {
+        let movies;
         const movieState = this.state.movies;
 
         if (this.state.isLoading) movies = <MovieList movies=""/>;
