@@ -14,7 +14,7 @@ export default function Movie(props) {
             </a>
             <div className="overlay">
                 <div className="rating">
-                    <div className="movie-rating">{props.movies.ranking || "n/a"}</div>
+                    <div className="movie-rating">{props.movies.rating || "n/a"}</div>
                     <svg id="movie-star-icon" width="18px" height="17px" viewBox="0 0 18 17" version="1.1">
                         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                             <g id="Artboard" fill="#FBEC40">
@@ -24,8 +24,7 @@ export default function Movie(props) {
                         </g>
                     </svg>
                 </div>
-                <div className="genres">International, Humor</div>
-                {/*<div className="genres">{props.movies.genres.map((genres) => <span>{genres}</span>)}</div>*/}
+                <div className="genres">{props.movies.genres.map((genres) => <span>{genres}</span>)}</div>
                 <h2 className="title max-lines">{props.movies.title}</h2>
                 <div className="release">
                     <div className="release-icon">
