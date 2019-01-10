@@ -3,6 +3,7 @@ import DropDown from './DropDown';
 import Rating from './Rating';
 import genreJson from "../dummy-json-responses/Genres";
 import actorJson from "../dummy-json-responses/Actors";
+import {parseData} from "./ParseJson";
 
 
 class FilterSection extends Component {
@@ -28,14 +29,9 @@ class FilterSection extends Component {
     render() {
         return (
             <div className="filter-section">
-                <DropDown title="Actor" type="actor" content={getOptions(actorJson, "Actor")} onDropDownClick={this.onDropDownClick}/>
-                <DropDown title="Genre" type="genre" content={getOptions(genreJson, "Genre")} onDropDownClick={this.onDropDownClick}/>
-                <div className="rating-column">
-                    <h3>Rating</h3>
-                    <div className="rating-filter">
-                        <Rating onDropDownClick={this.onDropDownClick}/>
-                    </div>
-                </div>
+                <DropDown title="Actor" type="actor" content={this.props.actors} onDropDownClick={this.onDropDownClick}/>
+                <DropDown title="Genre" type="genre" content={this.props.genres} onDropDownClick={this.onDropDownClick}/>
+                <Rating onDropDownClick={this.onDropDownClick}/>
             </div>
         );
     }

@@ -211,18 +211,11 @@ h4 {
   float: right;
   padding: 0 5px;
 }
-/* .rating span{
-  padding: 0 2px 0 1px;
-}
-.checked{
-  color: #F8E71C;
-} */
 /* Rating Form */
 form .stars {
   background: url("./images/stars.png") repeat-x 0 0;
   width: 275px;
 }
-
 form .stars input[type="radio"] {
   position: absolute;
   opacity: 0;

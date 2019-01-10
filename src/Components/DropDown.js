@@ -12,8 +12,8 @@ class DropDown extends Component {
         super(props);
         this.handleClick = this.handleClick.bind(this);
         this.state = {
-            select: "select",
-            content: this.props.content || ["default", "default", "default"]}
+            select: "select"
+        }
     }
 
     handleClick(param) {
@@ -38,7 +38,7 @@ class DropDown extends Component {
               <div className="dropdown">
                   <button className="dropbtn">{this.state.select}<span className="arrow-down"><FontAwesomeIcon icon="angle-down" /></span></button>
                   <div className="dropdown-content">
-                      {this.state.content.map((choice,i) => <a key={i} onClick={this.handleClick.bind(this, choice)}>{choice}</a>)}
+                      {this.props.content.map((choice,i) => <a key={i} onClick={this.handleClick.bind(this, choice)}>{choice}</a>)}
                   </div>
               </div>
             </div>
