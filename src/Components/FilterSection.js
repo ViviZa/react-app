@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import DropDown from './DropDown';
 import Rating from './Rating';
-import genreJson from "../dummy-json-responses/Genres";
-import actorJson from "../dummy-json-responses/Actors";
 import {parseData} from "./ParseJson";
 
 
