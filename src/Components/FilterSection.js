@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import DropDown from './DropDown';
-import Rating from './Rating';
-import {parseData} from "./ParseJson";
-
+import DropDown from "./DropDown";
+import Rating from "./Rating";
 
 class FilterSection extends Component {
 
@@ -37,20 +35,3 @@ class FilterSection extends Component {
 
 export default FilterSection;
 
-const getOptions = (data, buttonType) => {
-    //TODO: call getActors, getGenres, getRating
-    const dataString = JSON.stringify(data);
-    let jsonData = JSON.parse(dataString);
-    let genreArray = "";
-    if (buttonType === "Genre") {
-        genreArray = jsonData.genre
-    } else {
-        genreArray = jsonData.actor_list
-    }
-    let content = [];
-
-    for (let i = 0; i < genreArray.length; i++) {
-        content.push(genreArray[i]);
-    }
-    return content;
-};
