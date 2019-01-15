@@ -23,7 +23,7 @@ test('MovieList Component renders', () => {
         <MovieList movies={moviedata}/>
     );
     const movieListSection = wrapper.find('.movie-section');
-    const movieDiv = wrapper.find('.teaser');
+    const movieDiv = wrapper.find('Movie');
 
     //then
     expect(movieListSection).toBeDefined();
