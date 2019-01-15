@@ -1,13 +1,14 @@
 import React from 'react';
-import {configure, mount} from 'enzyme';
+import {configure, mount, shallow} from 'enzyme';
 import Adapter from "enzyme-adapter-react-16";
 import MovieList from "../Components/MovieList";
 
 configure({ adapter: new Adapter() });
 
-test('MovieList Component renders correctly', () => {
+test('MovieList Component renders', () => {
 
-    const movies = [{
+    //given
+    const moviedata = [{
         "id": 1,
         "title": "The Grinch",
         "imdb_id": "2709692",
@@ -16,11 +17,16 @@ test('MovieList Component renders correctly', () => {
         "release_date": "29 November 2018",
         "rating": 5.6
     }];
-    const wrapper = mount(
-        <MovieList movies={movies}/>
+
+    //when
+    const wrapper = shallow(
+        <MovieList movies={moviedata}/>
     );
     const movieListSection = wrapper.find('.movie-section');
+    const movieDiv = wrapper.find('.teaser');
 
+    //then
     expect(movieListSection).toBeDefined();
+    expect(movieDiv).toBeDefined();
 });
 

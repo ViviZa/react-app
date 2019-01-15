@@ -7,7 +7,7 @@ import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 
 
-test('DropDown Component renders correctly', () => {
+test('DropDown Component renders', () => {
 
     //given
     const actorJson = [
