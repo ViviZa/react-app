@@ -24,10 +24,12 @@ test('FilterSection Component renders correctly', () => {
     const filterSection = wrapper.find('.filter-section');
     const actorDropDown = wrapper.find('DropDown').get(0);
     const genreDropDown = wrapper.find('DropDown').get(1);
+    const rating = wrapper.find('Rating');
 
     //then
     expect(filterSection).toBeDefined();
     expect(actorDropDown.props.content).toContain("Viola Davis");
     expect(genreDropDown.props.content).toContain("Romantic");
+    expect(rating).toBeDefined();
 });
 
