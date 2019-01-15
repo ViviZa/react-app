@@ -1,11 +1,11 @@
 import React from 'react';
-import {configure, mount, shallow} from 'enzyme';
+import {configure, shallow} from 'enzyme';
 import Adapter from "enzyme-adapter-react-16";
 import MovieList from "../Components/MovieList";
 
 configure({ adapter: new Adapter() });
 
-test('MovieList Component renders', () => {
+test('MovieList Component renders correctly', () => {
 
     //given
     const moviedata = [{
@@ -23,10 +23,10 @@ test('MovieList Component renders', () => {
         <MovieList movies={moviedata}/>
     );
     const movieListSection = wrapper.find('.movie-section');
-    const movieDiv = wrapper.find('Movie');
+    const movieDiv = wrapper.find('Movie').get(0);
 
     //then
     expect(movieListSection).toBeDefined();
-    expect(movieDiv).toBeDefined();
+    expect(movieDiv.props.movies.title).toBe("The Grinch");
 });
 
