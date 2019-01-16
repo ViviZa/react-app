@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import MovieList from './Components/MovieList';
 import FilterSection from './Components/FilterSection';
+import BackToTop from './Components/BackToTop';
 import NotFound from './Components/NotFound';
 import parseData from "./Components/ParseJson";
 
@@ -76,6 +77,7 @@ class App extends Component {
                 <Header/>
                 <FilterSection renderApp={this.onDropDownClick} genres={this.state.genres} actors={this.state.actors}/>
                 {movies}
+                <BackToTop delay="40" scrollAmount="100"/>
             </div>
         );
     }
