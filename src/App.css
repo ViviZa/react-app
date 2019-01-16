@@ -328,6 +328,7 @@ form .stars span {
   float: left;
 }
 .dropbtn {
+  cursor: pointer;
   width: 100%;
   font-size: 18px;
   font-weight: 500;
@@ -367,6 +368,7 @@ form .stars span {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  cursor: pointer;
   color: black;
   text-align: left;
   font-size: 16px;
@@ -405,6 +407,7 @@ form .stars span {
 }
 
 .reset-button{
+  cursor: pointer;
   border: none;
   background-color: #fff;
   color: #000;
@@ -420,6 +423,7 @@ form .stars span {
 }
 
 .back-to-top {
+  cursor: pointer;
   border: none;
   border-radius: 50%;
   position: fixed;
@@ -440,6 +444,13 @@ form .stars span {
   box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top:active {
+  transition: 0.05s;
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
 }
 
 /* Small Desktops */
