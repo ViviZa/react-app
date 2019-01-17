@@ -48,7 +48,7 @@ class App extends Component {
     }
 
     onDropDownClick(actor, genre, rating) {
-        fetch('http://127.0.0.1:5000/getMovies?actor=' + actor + '&genre=' + genre + '&rating=' +rating)
+        fetch('http://127.0.0.1:5000/getMovies?actor=' + actor + '&genre=' + genre + '&rating=' + rating)
             .then(response => response.json())
             .then(json => parseData(json))
             .then(data => this.setState({movies: data}));
