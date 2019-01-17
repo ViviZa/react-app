@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import Header from './Components/Header';
-import MovieList from './Components/MovieList';
 import FilterSection from './Components/FilterSection';
 import BackToTop from './Components/BackToTop';
-import NotFound from './Components/NotFound';
-import parseData from "./Components/ParseJson";
+import parseData, {checkMovies} from "./Components/HelperFunctions";
 
 class App extends Component {
     constructor(props) {
@@ -16,7 +14,7 @@ class App extends Component {
             genres: [],
             actors: [],
             noBackEndResponse: false
-         }
+        }
     }
 
     componentWillMount() {
@@ -30,7 +28,7 @@ class App extends Component {
             .then(response => response.json())
             .then(json => parseData(json))
             .then(data => this.setState({movies: data, isLoading: false}))
-            .catch(error => this.setState({error ,noBackEndResponse: true, isLoading: false}));
+            .catch(error => this.setState({error, noBackEndResponse: true, isLoading: false}));
     }
 
     getGenres() {
@@ -55,23 +53,7 @@ class App extends Component {
     }
 
     render() {
-        let movies;
-        const movieState = this.state.movies;
-
-        if (movieState[0] === 'initialState'){
-            //if movies are still fetched
-            movies = <p>is Loading...</p>
-       } else if (movieState.length !== 0){
-            //if back-end did response with movies
-            movies = <MovieList movies={this.state.movies}/>;
-        } else {
-            //if back-end did response with no movies
-            movies = <div className="no-movies"><NotFound/><p>No movies with selected criteria available.</p></div>;
-        }
-        if (this.state.noBackEndResponse) {
-            //if back-end does not response
-            movies = <div className="no-movies"><NotFound/><p>Currently no movies available.</p></div>;
-        }
+        const movies = checkMovies(this.state.movies, this.state.noBackEndResponse);
         return (
             <div className="container">
                 <Header/>
