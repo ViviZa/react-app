@@ -20,7 +20,7 @@ test('FilterSection Component renders correctly', () => {
     expect(actorDropDown).toBeDefined();
     expect(actorDropDown.props.title).toBe("Actor");
     expect(genreDropDown).toBeDefined();
-    expect(actorDropDown.props.title).toBe("Genre");
+    expect(genreDropDown.props.title).toBe("Genre");
     expect(ratingFilter).toBeDefined();
 });
 
