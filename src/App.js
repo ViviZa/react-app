@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import FilterSection from './Components/FilterSection';
 import BackToTop from './Components/BackToTop';
-import parseData, {checkMovies} from "./Components/HelperFunctions";
+import parseData, {checkStateOfMovies} from "./Components/HelperFunctions";
 
 class App extends Component {
     constructor(props) {
@@ -53,7 +53,7 @@ class App extends Component {
     }
 
     render() {
-        const movies = checkMovies(this.state.movies, this.state.noBackEndResponse);
+        const movies = checkStateOfMovies(this.state.movies, this.state.noBackEndResponse);
         return (
             <div className="container">
                 <Header/>

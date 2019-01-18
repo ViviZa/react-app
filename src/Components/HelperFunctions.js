@@ -14,7 +14,7 @@ const parseData = (dataList) => {
 
 export default parseData;
 
-export const checkMovies = (movieList, noBackEndResponse) => {
+export const checkStateOfMovies = (movieList, noBackEndResponse) => {
     let movies;
     if (movieList[0] === 'initialState'){
         //if movies are still fetched
