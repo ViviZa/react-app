@@ -8,7 +8,7 @@ import parseData, {checkStateOfMovies} from "./Components/HelperFunctions";
 class App extends Component {
     constructor(props) {
         super(props);
-        this.onDropDownClick = this.onDropDownClick.bind(this);
+        this.onFilterMovies = this.onFilterMovies.bind(this);
         this.state = {
             movies: ['initialState'],
             genres: [],
@@ -45,7 +45,7 @@ class App extends Component {
             .then(data => this.setState({actors: data}));
     }
 
-    onDropDownClick(actor, genre, rating) {
+    onFilterMovies(actor, genre, rating) {
         fetch('http://127.0.0.1:5000/getMovies?actor=' + actor + '&genre=' + genre + '&rating=' + rating)
             .then(response => response.json())
             .then(json => parseData(json))
@@ -57,7 +57,7 @@ class App extends Component {
         return (
             <div className="container">
                 <Header/>
-                <FilterSection renderApp={this.onDropDownClick} genres={this.state.genres} actors={this.state.actors}/>
+                <FilterSection renderApp={this.onFilterMovies} genres={this.state.genres} actors={this.state.actors}/>
                 {movies}
                 <BackToTop delay="40" scrollAmount="100"/>
             </div>
