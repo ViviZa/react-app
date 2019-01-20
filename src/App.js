@@ -27,8 +27,8 @@ class App extends Component {
         fetch('http://127.0.0.1:5000/getMovies')
             .then(response => response.json())
             .then(json => parseData(json))
-            .then(data => this.setState({movies: data, isLoading: false}))
-            .catch(error => this.setState({error, noBackEndResponse: true, isLoading: false}));
+            .then(data => this.setState({movies: data}))
+            .catch(error => this.setState({error, noBackEndResponse: true}));
     }
 
     getGenres() {
