@@ -59,7 +59,7 @@ class App extends Component {
                 <Header/>
                 <FilterSection renderApp={this.onFilterMovies} genres={this.state.genres} actors={this.state.actors}/>
                 {movies}
-                <BackToTop delay="40" scrollAmount="100"/>
+                <BackToTop delay="40" scrollAmount="700"/>
             </div>
         );
     }
