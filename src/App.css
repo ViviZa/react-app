@@ -10,10 +10,6 @@ body {
   letter-spacing: 0.2em;
 }
 
-button:focus {
-  outline: none;
-}
-
 /* Container */
 .container {
   width: 95%;
@@ -34,7 +30,6 @@ button:focus {
   display: inline-block;
   position: relative;
   padding: 0 10px;
-
 }
 .rating-column {
   width: 22.5%;
@@ -43,6 +38,7 @@ button:focus {
   position: relative;
   padding: 0 10px;
 }
+
 /* Navigation */
 header {
   width: 100%;
@@ -74,13 +70,6 @@ h4 {
   margin: 2px 0 0 0;
   font-weight: 400;
 }
-/* h5 {
-  font-size: 14px;
-  font-weight: 100;
-  margin: -15px 0 0 0;
-  padding: 0 20px 5px 20px;
-  letter-spacing: 1.2px;
-} */
 .subline {
   text-align: center;
   color: #8d8d8d;
@@ -94,7 +83,8 @@ h4 {
   display: block;
   float: left;
 }
-/* About Section */
+
+/* Images */
 .image {
   width: 100%;
   height: 100%;
@@ -199,10 +189,9 @@ h4 {
 .genres span:first-of-type {
   margin-left: 0;
 }
+
 /* Movie Rating */
 .rating {
-  /* font-size: 12px;
-  color: #C5C5C5; */
   margin: 10px 0 8px 0;
   text-align: right;
   padding-right: 15px;
@@ -215,6 +204,7 @@ h4 {
   float: right;
   padding: 0 5px;
 }
+
 /* Rating Form */
 form .stars {
   background: url("./images/stars.png") repeat-x 0 0;
@@ -315,6 +305,7 @@ form .stars span {
   -o-transition: -o-width 0.3s;
   transition: width 0.3s;
 }
+
 /* Filter Section */
 .filter-section {
   text-align: center;
@@ -349,15 +340,18 @@ form .stars span {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+button:focus {
+  outline: none;
+}
 
-/* The container <div> - needed to position the dropdown content */
+/* Dropdown Positioning div */
 .dropdown {
   width: 100%;
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Content that is shown on hover */
 .dropdown-content {
   width: 100%;
   display: none;
@@ -370,7 +364,7 @@ form .stars span {
   overflow: scroll;
 }
 
-/* Links inside the dropdown */
+/* Links inside the Dropdown */
 .dropdown-content a {
   cursor: pointer;
   color: black;
@@ -382,34 +376,32 @@ form .stars span {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* Change color of Dropdown Links on hover */
 .dropdown-content a:hover {
   background-color: #E3E3E3;
 }
 
-/* Show the dropdown menu on hover */
+/* Show Dropdown Menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* Dropdown Button Color on hover */
 .dropdown:hover .dropbtn {
   background-color: #F4F4F4;
 }
 
-/* Rotate icon with hover */
+/* Flip Arrow Icon on hover */
 .dropdown:hover .arrow-down {
   transition: 0.25s;
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
   -ms-transform: rotateX(180deg);
 }
-
 .arrow-down {
   margin-top: 3px;
   float: right;
 }
-
 .reset-button{
   cursor: pointer;
   border: none;
@@ -418,14 +410,12 @@ form .stars span {
   display: inline-block;
   margin: 23px 5px auto 5px;
 }
-
 .reset-button:active {
   transition: 0.25s;
   transform: rotate(-360deg);
   -webkit-transform: rotate(-360deg);
   -ms-transform: rotate(-360deg);
 }
-
 .back-to-top {
   cursor: pointer;
   border: none;
@@ -442,14 +432,12 @@ form .stars span {
   bottom: 25px;
   right: 25px;
 }
-
 .back-to-top:hover {
   opacity: 1;
   box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.1);
 }
-
 .back-to-top:active {
   transition: 0.05s;
   transform: translateY(-15px);

@@ -11,7 +11,7 @@ class Rating extends Component {
 			super(props);
 			this.handleClick = this.handleClick.bind(this);
 			this.state = {
-				value: "3",
+				value: "0",
 			}
 	}
 
