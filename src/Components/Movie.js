@@ -5,7 +5,7 @@ export default function Movie(props) {
 
     return (
         <div className="teaser column">
-            <a href={props.movies.url}>
+            <a href={props.movies.url} target="_blank">
                 <img
                     src={imageCheck(props.movies.image_url)}
                     className="image"
