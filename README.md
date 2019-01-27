@@ -4,7 +4,9 @@
 * The corresponding back-end: https://github.com/mayo-s/webscraper-py.git
 * it was bootstrapped with <http://github.com/sw-yx/create-react-app-parcel>
 
-## Build
+## Install Dependencies
+	yarn install
+## Build Project
 	yarn start
 ## Run tests
 	yarn test
