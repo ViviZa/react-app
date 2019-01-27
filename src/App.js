@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import FilterSection from './Components/FilterSection';
 import BackToTop from './Components/BackToTop';
 import parseData, {checkStateOfMovies} from "./Components/HelperFunctions";
+import fetch from "node-fetch";
+
 
 class App extends Component {
     constructor(props) {
